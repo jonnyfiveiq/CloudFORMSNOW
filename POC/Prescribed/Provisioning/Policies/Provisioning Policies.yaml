@@ -1,0 +1,41 @@
+---
+- MiqPolicySet:
+    name: dafe3530-c9f9-11e2-91dc-000c2980bea6
+    description: Provisioning
+    set_type: MiqPolicySet
+    guid: dafe3530-c9f9-11e2-91dc-000c2980bea6
+    read_only: 
+    set_data: 
+    mode: 
+    owner_type: 
+    owner_id: 
+    !binary "TWlxUG9saWN5":
+    - name: afd0d8f0-c9f8-11e2-91dc-000c2980bea6
+      description: SmartState any New VM
+      expression: 
+      towhat: Vm
+      guid: afd0d8f0-c9f8-11e2-91dc-000c2980bea6
+      created_by: admin
+      updated_by: admin
+      notes: SmartState any New VM
+      active: true
+      mode: control
+      !binary "TWlxUG9saWN5Q29udGVudA==":
+      - qualifier: success
+        success_sequence: 1
+        success_synchronous: true
+        !binary "TWlxRXZlbnQ=":
+          name: vm_provisioned
+          description: VM Provision Complete
+          guid: 7a9ce384-c90f-11e2-9fdc-000c2980bea6
+          event_type: Default
+          definition: 
+          default: 
+          enabled: 
+        !binary "TWlxQWN0aW9u":
+          name: vm_analyze
+          description: Initiate SmartState Analysis for VM
+          guid: 6cae8d36-c90f-11e2-9fdc-000c2980bea6
+          action_type: default
+          options: 
+      !binary "Q29uZGl0aW9u": []
