@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MiqAeDatastore version="1.0">
+  <MiqAeClass name="methods" namespace="cfnow" description="methods" display_name="methods">
+    <MiqAeMethod name="inspectXML" language="ruby" scope="instance" location="inline" display_name="inspectXML"><![CDATA[# John Hardy
+# CloudFORMSNOW.com
+# v 1.0
+
+require 'rubygems'
+require 'fileutils'
+require "rexml/document"
+require 'rexml/formatters/default'
+
+def get_options(options,type,node)
+  newnode = node.add_element "#{type}", {"count"=>"#{options.count.to_s}"}
+  options.sort.each do | k,v |
+    newnewelem = newnode.add_element "#{k}"
+        newnewelem.add_text "#{v}"
+  end
+end
+
+def get_attr(attributes,node)
+  newnode = node.add_element "attributes", {"count"=>"#{attributes.count.to_s}"}
+   attributes.sort.each do | attr,val | 
+   if val.kind_of?(Hash) || val.is_a?(Array)
+      get_options(val,attr,newnode)
+   else 
+      if attr != "ems_ref_obj" 
+        newnewelem = newnode.add_element "#{attr}"
+        newnewelem.add_text "#{val}"
+      end
+   end
+  end
+end
+
+def get_virtcols(virtualcolumns,node)
+  newnode = node.add_element "virtual_columns", {"count"=>"#{@obj.virtual_column_names.count.to_s}"}
+  virtualcolumns.sort.each do | attr,val |
+    newnewelem = newnode.add_element "#{attr}"
+    begin 
+      command = "@obj.#{attr}"
+      virt_col_val = eval(command)
+      newnewelem.add_text "#{virt_col_val}"
+    rescue => err
+    puts err
+    end    
+  end
+end
+
+def get_associations(associations,node) 
+ newnode = node.add_element "associations", {"count"=>"#{@obj.associations.count.to_s}"}
+  associations.sort.each do | assoc |
+    newnewelem = newnode.add_element "#{assoc}"
+    begin 
+      command = "@obj.#{assoc}.attributes"
+      attributes = eval(command)
+      get_attr(attributes,newnewelem)
+    rescue => err
+    puts err
+    end    
+  end
+end
+
+#Create XML Doc and Root node.
+doc = REXML::Document.new("<?xml version='1.0?>")
+
+#Grab the current object and its type
+@object_type = $evm.root['vmdb_object_type']
+@obj = $evm.root[@object_type]
+
+el = doc.add_element "root" 
+e2 = el.add_element "#{@obj.name}", {"type"=>"#{@object_type.to_s}","count"=>"#{@obj.attributes.count.to_s}"}
+
+#get the attributes
+attributes = @obj.attributes
+get_attr(attributes,e2)
+
+#get the virtual columns
+virtualcolumns = @obj.virtual_column_names
+get_virtcols(virtualcolumns,e2)
+
+#get the associoations
+associations = @obj.associations
+get_associations(associations,e2)
+
+bar = REXML::Formatters::Pretty.new
+out = String.new
+bar.compact = true
+bar.write(doc, out)
+
+#send to screen
+puts out
+
+#dump to file
+chewy = File.open("/tmp/#{@obj.name}.xml","w")
+chewy.write(out)
+
+exit MIQ_OK]]>    </MiqAeMethod>
+    <MiqAeSchema>
+      <MiqAeField name="execute" substitute="true" aetype="method" datatype="string" priority="1" message="create">
+      </MiqAeField>
+    </MiqAeSchema>
+    <MiqAeInstance name="inspectXML" display_name="inspectXML" description="inspectXML">
+      <MiqAeField name="execute">
+inspectXML      </MiqAeField>
+    </MiqAeInstance>
+  </MiqAeClass>
+</MiqAeDatastore>
