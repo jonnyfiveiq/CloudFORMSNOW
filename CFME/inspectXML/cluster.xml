@@ -1,0 +1,167 @@
+<?xml version='1.0'?>
+<root>
+  <Marketing type='ems_cluster' count='17'>
+    <attributes count='17'>
+      <created_on>2013-11-11 16:19:54 UTC</created_on>
+      <drs_automation_level>fullyAutomated</drs_automation_level>
+      <drs_enabled>false</drs_enabled>
+      <drs_migration_threshold>3</drs_migration_threshold>
+      <effective_cpu>52656</effective_cpu>
+      <effective_memory>68094525440</effective_memory>
+      <ems_id>1000000000001</ems_id>
+      <ems_ref>domain-c75</ems_ref>
+      <ha_admit_control>true</ha_admit_control>
+      <ha_enabled>false</ha_enabled>
+      <ha_max_failures>1</ha_max_failures>
+      <id>1000000000002</id>
+      <last_perf_capture_on></last_perf_capture_on>
+      <name>Marketing</name>
+      <uid_ems>domain-c75</uid_ems>
+      <updated_on>2013-11-20 05:12:53 UTC</updated_on>
+    </attributes>
+    <virtual_columns count='80'>
+      <aggregate_cpu_speed>57600</aggregate_cpu_speed>
+      <aggregate_logical_cpus>24</aggregate_logical_cpus>
+      <aggregate_memory>73708</aggregate_memory>
+      <aggregate_physical_cpus>4</aggregate_physical_cpus>
+      <aggregate_vm_cpus>102</aggregate_vm_cpus>
+      <aggregate_vm_memory>194752</aggregate_vm_memory>
+      <capacity_profile_1_available_host_memory>68094525440</capacity_profile_1_available_host_memory>
+      <capacity_profile_1_available_host_vcpu>24</capacity_profile_1_available_host_vcpu>
+      <capacity_profile_1_memory_commitment_ratio>1.2</capacity_profile_1_memory_commitment_ratio>
+      <capacity_profile_1_memory_maximum></capacity_profile_1_memory_maximum>
+      <capacity_profile_1_memory_method>Average of Allocated Memory</capacity_profile_1_memory_method>
+      <capacity_profile_1_memory_minimum></capacity_profile_1_memory_minimum>
+      <capacity_profile_1_memory_per_vm>4641188026.181818</capacity_profile_1_memory_per_vm>
+      <capacity_profile_1_memory_per_vm_with_min_max>4641188026.181818</capacity_profile_1_memory_per_vm_with_min_max>
+      <capacity_profile_1_projected_vm_count_based_on_all>18</capacity_profile_1_projected_vm_count_based_on_all>
+      <capacity_profile_1_projected_vm_count_based_on_memory>18</capacity_profile_1_projected_vm_count_based_on_memory>
+      <capacity_profile_1_projected_vm_count_based_on_vcpu>21</capacity_profile_1_projected_vm_count_based_on_vcpu>
+      <capacity_profile_1_remaining_host_memory>-122498842624.0</capacity_profile_1_remaining_host_memory>
+      <capacity_profile_1_remaining_host_vcpu>-54.0</capacity_profile_1_remaining_host_vcpu>
+      <capacity_profile_1_remaining_vm_count_based_on_all>-26</capacity_profile_1_remaining_vm_count_based_on_all>
+      <capacity_profile_1_remaining_vm_count_based_on_memory>-26</capacity_profile_1_remaining_vm_count_based_on_memory>
+      <capacity_profile_1_remaining_vm_count_based_on_vcpu>-23</capacity_profile_1_remaining_vm_count_based_on_vcpu>
+      <capacity_profile_1_vcpu_commitment_ratio>2.0</capacity_profile_1_vcpu_commitment_ratio>
+      <capacity_profile_1_vcpu_maximum></capacity_profile_1_vcpu_maximum>
+      <capacity_profile_1_vcpu_method>Average of Allocated vCPU</capacity_profile_1_vcpu_method>
+      <capacity_profile_1_vcpu_minimum></capacity_profile_1_vcpu_minimum>
+      <capacity_profile_1_vcpu_per_vm>2.3181818181818183</capacity_profile_1_vcpu_per_vm>
+      <capacity_profile_1_vcpu_per_vm_with_min_max>2.3181818181818183</capacity_profile_1_vcpu_per_vm_with_min_max>
+      <capacity_profile_2_available_host_memory>68094525440</capacity_profile_2_available_host_memory>
+      <capacity_profile_2_available_host_vcpu>52656</capacity_profile_2_available_host_vcpu>
+      <capacity_profile_2_memory_commitment_ratio>1.0</capacity_profile_2_memory_commitment_ratio>
+      <capacity_profile_2_memory_maximum></capacity_profile_2_memory_maximum>
+      <capacity_profile_2_memory_method>High Normal Range of Allocated Memory</capacity_profile_2_memory_method>
+      <capacity_profile_2_memory_minimum></capacity_profile_2_memory_minimum>
+      <capacity_profile_2_memory_per_vm>939792153.7904874</capacity_profile_2_memory_per_vm>
+      <capacity_profile_2_memory_per_vm_with_min_max>939792153.7904874</capacity_profile_2_memory_per_vm_with_min_max>
+      <capacity_profile_2_projected_vm_count_based_on_all>72</capacity_profile_2_projected_vm_count_based_on_all>
+      <capacity_profile_2_projected_vm_count_based_on_memory>72</capacity_profile_2_projected_vm_count_based_on_memory>
+      <capacity_profile_2_projected_vm_count_based_on_vcpu>354</capacity_profile_2_projected_vm_count_based_on_vcpu>
+      <capacity_profile_2_remaining_host_memory>26743670673.21855</capacity_profile_2_remaining_host_memory>
+      <capacity_profile_2_remaining_host_vcpu>46116.5308560761</capacity_profile_2_remaining_host_vcpu>
+      <capacity_profile_2_remaining_vm_count_based_on_all>28</capacity_profile_2_remaining_vm_count_based_on_all>
+      <capacity_profile_2_remaining_vm_count_based_on_memory>28</capacity_profile_2_remaining_vm_count_based_on_memory>
+      <capacity_profile_2_remaining_vm_count_based_on_vcpu>310</capacity_profile_2_remaining_vm_count_based_on_vcpu>
+      <capacity_profile_2_vcpu_commitment_ratio>1.0</capacity_profile_2_vcpu_commitment_ratio>
+      <capacity_profile_2_vcpu_maximum></capacity_profile_2_vcpu_maximum>
+      <capacity_profile_2_vcpu_method>High Normal Range of Allocated vCPU</capacity_profile_2_vcpu_method>
+      <capacity_profile_2_vcpu_minimum></capacity_profile_2_vcpu_minimum>
+      <capacity_profile_2_vcpu_per_vm>148.62429872554318</capacity_profile_2_vcpu_per_vm>
+      <capacity_profile_2_vcpu_per_vm_with_min_max>148.62429872554318</capacity_profile_2_vcpu_per_vm_with_min_max>
+      <cpu_usagemhz_rate_average_avg_over_time_period>4169.520057083138</cpu_usagemhz_rate_average_avg_over_time_period>
+      <cpu_usagemhz_rate_average_high_over_time_period>5313.536306633002</cpu_usagemhz_rate_average_high_over_time_period>
+      <cpu_usagemhz_rate_average_low_over_time_period>3025.503807533275</cpu_usagemhz_rate_average_low_over_time_period>
+      <derived_memory_used_avg_over_time_period>38954.53857492625</derived_memory_used_avg_over_time_period>
+      <derived_memory_used_high_over_time_period>44458.837805842966</derived_memory_used_high_over_time_period>
+      <derived_memory_used_low_over_time_period>33450.23934400953</derived_memory_used_low_over_time_period>
+      <first_drift_state_timestamp></first_drift_state_timestamp>
+      <last_drift_state_timestamp></last_drift_state_timestamp>
+      <last_scan_on></last_scan_on>
+      <max_cpu_usage_rate_average_avg_over_time_period>10.064206456456441</max_cpu_usage_rate_average_avg_over_time_period>
+      <max_cpu_usage_rate_average_avg_over_time_period_without_overhead>9.91420645645644</max_cpu_usage_rate_average_avg_over_time_period_without_overhead>
+      <max_cpu_usage_rate_average_high_over_time_period>12.569228851268424</max_cpu_usage_rate_average_high_over_time_period>
+      <max_cpu_usage_rate_average_high_over_time_period_without_overhead>12.419228851268423</max_cpu_usage_rate_average_high_over_time_period_without_overhead>
+      <max_cpu_usage_rate_average_low_over_time_period>7.559184061644459</max_cpu_usage_rate_average_low_over_time_period>
+      <max_cpu_usage_rate_average_low_over_time_period_without_overhead>7.409184061644459</max_cpu_usage_rate_average_low_over_time_period_without_overhead>
+      <max_mem_usage_absolute_average_avg_over_time_period>55.49794791666666</max_mem_usage_absolute_average_avg_over_time_period>
+      <max_mem_usage_absolute_average_avg_over_time_period_without_overhead>53.48794791666666</max_mem_usage_absolute_average_avg_over_time_period_without_overhead>
+      <max_mem_usage_absolute_average_high_over_time_period>62.73566700419529</max_mem_usage_absolute_average_high_over_time_period>
+      <max_mem_usage_absolute_average_high_over_time_period_without_overhead>60.725667004195294</max_mem_usage_absolute_average_high_over_time_period_without_overhead>
+      <max_mem_usage_absolute_average_low_over_time_period>48.26022882913803</max_mem_usage_absolute_average_low_over_time_period>
+      <max_mem_usage_absolute_average_low_over_time_period_without_overhead>46.25022882913803</max_mem_usage_absolute_average_low_over_time_period_without_overhead>
+      <region_description>Region 1</region_description>
+      <region_number>1</region_number>
+      <total_hosts>2</total_hosts>
+      <total_miq_templates>2</total_miq_templates>
+      <total_vms>44</total_vms>
+      <v_cpu_vr_ratio>4.3</v_cpu_vr_ratio>
+      <v_parent_datacenter>NewYork</v_parent_datacenter>
+      <v_qualified_desc>Marketing in NewYork</v_qualified_desc>
+      <v_ram_vr_ratio>2.6</v_ram_vr_ratio>
+    </virtual_columns>
+    <associations count='10'>
+      <all_resource_pools/>
+      <all_vms/>
+      <default_resource_pool>
+        <attributes count='20'>
+          <cpu_limit>52656</cpu_limit>
+          <cpu_reserve>52656</cpu_reserve>
+          <cpu_reserve_expand>true</cpu_reserve_expand>
+          <cpu_shares>4000</cpu_shares>
+          <cpu_shares_level>normal</cpu_shares_level>
+          <created_on>2013-11-11 16:19:57 UTC</created_on>
+          <ems_id>1000000000001</ems_id>
+          <ems_ref>resgroup-76</ems_ref>
+          <id>1000000000002</id>
+          <is_default>true</is_default>
+          <memory_limit>64947</memory_limit>
+          <memory_reserve>64947</memory_reserve>
+          <memory_reserve_expand>true</memory_reserve_expand>
+          <memory_shares>163840</memory_shares>
+          <memory_shares_level>normal</memory_shares_level>
+          <name>Default for Cluster Marketing</name>
+          <uid_ems>resgroup-76</uid_ems>
+          <updated_on>2013-11-19 13:59:20 UTC</updated_on>
+          <vapp>false</vapp>
+        </attributes>
+      </default_resource_pool>
+      <ems_events/>
+      <ext_management_system>
+        <attributes count='14'>
+          <api_version>5.5</api_version>
+          <created_on>2013-11-11 16:16:29 UTC</created_on>
+          <guid>9f59b4cc-4aec-11e3-bf7e-005056b344b3</guid>
+          <host_default_vnc_port_end></host_default_vnc_port_end>
+          <host_default_vnc_port_start></host_default_vnc_port_start>
+          <hostname>10.16.132.40</hostname>
+          <id>1000000000001</id>
+          <ipaddress>10.16.132.40</ipaddress>
+          <name>Virtual Center (10.16.132.40)</name>
+          <port></port>
+          <type>EmsVmware</type>
+          <uid_ems>EB7C615F-75EC-4A63-B8B7-B8328646BECC</uid_ems>
+          <updated_on>2013-11-11 16:19:53 UTC</updated_on>
+          <zone_id>1000000000001</zone_id>
+        </attributes>
+      </ext_management_system>
+      <hosts/>
+      <parent_folder>
+        <attributes count='9'>
+          <created_on>2013-11-11 16:19:57 UTC</created_on>
+          <ems_id>1000000000001</ems_id>
+          <ems_ref>group-d1</ems_ref>
+          <id>1000000000001</id>
+          <is_datacenter>false</is_datacenter>
+          <name>Datacenters</name>
+          <uid_ems>group-d1</uid_ems>
+          <updated_on>2013-11-11 16:19:57 UTC</updated_on>
+        </attributes>
+      </parent_folder>
+      <resource_pools/>
+      <storages/>
+      <vms/>
+    </associations>
+  </Marketing>
+</root>

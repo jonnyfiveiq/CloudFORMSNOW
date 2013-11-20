@@ -1,0 +1,78 @@
+<?xml version='1.0'?>
+<root>
+  <rhc-04-local type='storage' count='19'>
+    <attributes count='19'>
+      <created_on>2013-11-11 16:19:54 UTC</created_on>
+      <directory_hierarchy_supported>true</directory_hierarchy_supported>
+      <ems_ref>datastore-41</ems_ref>
+      <free_space>408856559616</free_space>
+      <id>1000000000001</id>
+      <last_perf_capture_on>2013-11-20 14:00:00 UTC</last_perf_capture_on>
+      <last_scan_on>2013-11-20 00:00:32 UTC</last_scan_on>
+      <location>5256c82b-4d46887c-b42a-ac162da6fb00</location>
+      <master>false</master>
+      <multiplehostaccess>0</multiplehostaccess>
+      <name>rhc-04-local</name>
+      <raw_disk_mappings_supported>true</raw_disk_mappings_supported>
+      <storage_domain_type></storage_domain_type>
+      <store_type>VMFS</store_type>
+      <thin_provisioning_supported>true</thin_provisioning_supported>
+      <total_space>591900180480</total_space>
+      <uncommitted>263794240303</uncommitted>
+      <updated_on>2013-11-20 14:03:09 UTC</updated_on>
+    </attributes>
+    <virtual_columns count='45'>
+      <count_of_vmdk_disk_files>14</count_of_vmdk_disk_files>
+      <cpu_usagemhz_rate_average_avg_over_time_period>0.0</cpu_usagemhz_rate_average_avg_over_time_period>
+      <cpu_usagemhz_rate_average_high_over_time_period>0.0</cpu_usagemhz_rate_average_high_over_time_period>
+      <cpu_usagemhz_rate_average_low_over_time_period>0.0</cpu_usagemhz_rate_average_low_over_time_period>
+      <debris_size>3720358848</debris_size>
+      <derived_memory_used_avg_over_time_period>0.0</derived_memory_used_avg_over_time_period>
+      <derived_memory_used_high_over_time_period>0.0</derived_memory_used_high_over_time_period>
+      <derived_memory_used_low_over_time_period>0.0</derived_memory_used_low_over_time_period>
+      <disk_size>446676606264</disk_size>
+      <max_cpu_usage_rate_average_avg_over_time_period>0</max_cpu_usage_rate_average_avg_over_time_period>
+      <max_cpu_usage_rate_average_avg_over_time_period_without_overhead>0.0</max_cpu_usage_rate_average_avg_over_time_period_without_overhead>
+      <max_cpu_usage_rate_average_high_over_time_period>0.0</max_cpu_usage_rate_average_high_over_time_period>
+      <max_cpu_usage_rate_average_high_over_time_period_without_overhead>0.0</max_cpu_usage_rate_average_high_over_time_period_without_overhead>
+      <max_cpu_usage_rate_average_low_over_time_period>0.0</max_cpu_usage_rate_average_low_over_time_period>
+      <max_cpu_usage_rate_average_low_over_time_period_without_overhead>0.0</max_cpu_usage_rate_average_low_over_time_period_without_overhead>
+      <max_mem_usage_absolute_average_avg_over_time_period>0</max_mem_usage_absolute_average_avg_over_time_period>
+      <max_mem_usage_absolute_average_avg_over_time_period_without_overhead>0.0</max_mem_usage_absolute_average_avg_over_time_period_without_overhead>
+      <max_mem_usage_absolute_average_high_over_time_period>0.0</max_mem_usage_absolute_average_high_over_time_period>
+      <max_mem_usage_absolute_average_high_over_time_period_without_overhead>0.0</max_mem_usage_absolute_average_high_over_time_period_without_overhead>
+      <max_mem_usage_absolute_average_low_over_time_period>0.0</max_mem_usage_absolute_average_low_over_time_period>
+      <max_mem_usage_absolute_average_low_over_time_period_without_overhead>0.0</max_mem_usage_absolute_average_low_over_time_period_without_overhead>
+      <region_description>Region 1</region_description>
+      <region_number>1</region_number>
+      <snapshot_size>220</snapshot_size>
+      <total_managed_registered_vms>5</total_managed_registered_vms>
+      <total_managed_unregistered_vms>5</total_managed_unregistered_vms>
+      <total_unmanaged_vms>0</total_unmanaged_vms>
+      <v_debris_percent_of_used>2.0</v_debris_percent_of_used>
+      <v_disk_percent_of_used>244.0</v_disk_percent_of_used>
+      <v_free_space_percent_of_total>69.1</v_free_space_percent_of_total>
+      <v_memory_percent_of_used>0.0</v_memory_percent_of_used>
+      <v_provisioned_percent_of_total>75.5</v_provisioned_percent_of_total>
+      <v_snapshot_percent_of_used>0.0</v_snapshot_percent_of_used>
+      <v_total_debris_size>3720358848</v_total_debris_size>
+      <v_total_hosts>1</v_total_hosts>
+      <v_total_memory_size>52104</v_total_memory_size>
+      <v_total_provisioned>446837861167</v_total_provisioned>
+      <v_total_snapshot_size>220</v_total_snapshot_size>
+      <v_total_vm_misc_size>11973753</v_total_vm_misc_size>
+      <v_total_vms>5</v_total_vms>
+      <v_used_space>183043620864</v_used_space>
+      <v_used_space_percent_of_total>30.9</v_used_space_percent_of_total>
+      <v_vm_misc_percent_of_used>0.0</v_vm_misc_percent_of_used>
+      <vm_misc_size>11973753</vm_misc_size>
+      <vm_ram_size>52104</vm_ram_size>
+    </virtual_columns>
+    <associations count='4'>
+      <ext_management_systems/>
+      <hosts/>
+      <unregistered_vms/>
+      <vms/>
+    </associations>
+  </rhc-04-local>
+</root>

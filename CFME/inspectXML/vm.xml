@@ -1,0 +1,641 @@
+<?xml version='1.0'?>
+<root>
+  <JH-Service_0005 type='vm' count='65'>
+    <attributes count='65'>
+      <autostart></autostart>
+      <availability_zone_id></availability_zone_id>
+      <blackbox_exists></blackbox_exists>
+      <blackbox_validated></blackbox_validated>
+      <boot_time>2013-11-14 19:36:22 UTC</boot_time>
+      <busy></busy>
+      <cloud></cloud>
+      <cloud_network_id></cloud_network_id>
+      <cloud_subnet_id></cloud_subnet_id>
+      <config_xml></config_xml>
+      <connection_state>connected</connection_state>
+      <cpu_affinity></cpu_affinity>
+      <cpu_limit>-1</cpu_limit>
+      <cpu_reserve>0</cpu_reserve>
+      <cpu_reserve_expand>false</cpu_reserve_expand>
+      <cpu_shares>1000</cpu_shares>
+      <cpu_shares_level>normal</cpu_shares_level>
+      <created_on>2013-11-13 04:05:50 UTC</created_on>
+      <description></description>
+      <ems_cluster_id>1000000000001</ems_cluster_id>
+      <ems_created_on></ems_created_on>
+      <ems_id></ems_id>
+      <ems_ref>vm-817</ems_ref>
+      <evm_owner_id></evm_owner_id>
+      <fault_tolerance>false</fault_tolerance>
+      <flavor_id></flavor_id>
+      <format></format>
+      <guid>e1b9131c-4c18-11e3-ab5f-005056b344b3</guid>
+      <host_id></host_id>
+      <id>1000000000076</id>
+      <last_perf_capture_on>2013-11-14 17:31:40 UTC</last_perf_capture_on>
+      <last_scan_attempt_on>2013-11-13 04:05:59 UTC</last_scan_attempt_on>
+      <last_scan_on>2013-11-13 04:06:44 UTC</last_scan_on>
+      <last_sync_on>2013-11-13 04:06:44 UTC</last_sync_on>
+      <linked_clone>false</linked_clone>
+      <location>JH-Service_0005/JH-Service_0005.vmx</location>
+      <memory_limit>-1</memory_limit>
+      <memory_reserve>0</memory_reserve>
+      <memory_reserve_expand>false</memory_reserve_expand>
+      <memory_shares>20480</memory_shares>
+      <memory_shares_level>normal</memory_shares_level>
+      <miq_group_id></miq_group_id>
+      <name>JH-Service_0005</name>
+      <power_state>unknown</power_state>
+      <previous_state>off</previous_state>
+      <registered></registered>
+      <retired></retired>
+      <retirement_last_warn></retirement_last_warn>
+      <retirement_state></retirement_state>
+      <retirement_warn></retirement_warn>
+      <retires_on></retires_on>
+      <smart></smart>
+      <standby_action>checkpoint</standby_action>
+      <state_changed_on>2013-11-14 22:51:21 UTC</state_changed_on>
+      <storage_id></storage_id>
+      <template>false</template>
+      <tools_status>toolsNotRunning</tools_status>
+      <type>VmVmware</type>
+      <uid_ems>42338ebd-ae37-d5f8-0761-3fa930947be7</uid_ems>
+      <updated_on>2013-11-14 22:51:22 UTC</updated_on>
+      <vdi>false</vdi>
+      <vendor>vmware</vendor>
+      <version></version>
+      <vnc_port></vnc_port>
+    </attributes>
+    <virtual_columns count='216'>
+      <active>false</active>
+      <aggressive_mem_recommended_change>1828</aggressive_mem_recommended_change>
+      <aggressive_mem_recommended_change_pct>89.3</aggressive_mem_recommended_change_pct>
+      <aggressive_recommended_mem>220</aggressive_recommended_mem>
+      <aggressive_recommended_vcpus>1</aggressive_recommended_vcpus>
+      <aggressive_vcpus_recommended_change>0</aggressive_vcpus_recommended_change>
+      <aggressive_vcpus_recommended_change_pct>0.0</aggressive_vcpus_recommended_change_pct>
+      <allocated_disk_storage>17179869184</allocated_disk_storage>
+      <archived>true</archived>
+      <conservative_mem_recommended_change>508</conservative_mem_recommended_change>
+      <conservative_mem_recommended_change_pct>24.8</conservative_mem_recommended_change_pct>
+      <conservative_recommended_mem>1540</conservative_recommended_mem>
+      <conservative_recommended_vcpus>1</conservative_recommended_vcpus>
+      <conservative_vcpus_recommended_change>0</conservative_vcpus_recommended_change>
+      <conservative_vcpus_recommended_change_pct>0.0</conservative_vcpus_recommended_change_pct>
+      <cpu_usagemhz_rate_average_avg_over_time_period>35.798295454545425</cpu_usagemhz_rate_average_avg_over_time_period>
+      <cpu_usagemhz_rate_average_high_over_time_period>65.0757575757575</cpu_usagemhz_rate_average_high_over_time_period>
+      <cpu_usagemhz_rate_average_low_over_time_period>6.520833333333346</cpu_usagemhz_rate_average_low_over_time_period>
+      <cpu_usagemhz_rate_average_max_over_time_period>65.0757575757575</cpu_usagemhz_rate_average_max_over_time_period>
+      <custom_1></custom_1>
+      <custom_2></custom_2>
+      <custom_3></custom_3>
+      <custom_4></custom_4>
+      <custom_5></custom_5>
+      <custom_6></custom_6>
+      <custom_7></custom_7>
+      <custom_8></custom_8>
+      <custom_9></custom_9>
+      <debris_size>0</debris_size>
+      <derived_memory_used_avg_over_time_period>109.4545454545455</derived_memory_used_avg_over_time_period>
+      <derived_memory_used_high_over_time_period>162.909090909091</derived_memory_used_high_over_time_period>
+      <derived_memory_used_low_over_time_period>56.0</derived_memory_used_low_over_time_period>
+      <derived_memory_used_max_over_time_period>162.909090909091</derived_memory_used_max_over_time_period>
+      <disconnected>false</disconnected>
+      <disk_1_disk_type></disk_1_disk_type>
+      <disk_1_mode></disk_1_mode>
+      <disk_1_partitions_aligned></disk_1_partitions_aligned>
+      <disk_1_size></disk_1_size>
+      <disk_1_size_on_disk></disk_1_size_on_disk>
+      <disk_1_used_percent_of_provisioned></disk_1_used_percent_of_provisioned>
+      <disk_2_disk_type></disk_2_disk_type>
+      <disk_2_mode></disk_2_mode>
+      <disk_2_partitions_aligned></disk_2_partitions_aligned>
+      <disk_2_size></disk_2_size>
+      <disk_2_size_on_disk></disk_2_size_on_disk>
+      <disk_2_used_percent_of_provisioned></disk_2_used_percent_of_provisioned>
+      <disk_3_disk_type></disk_3_disk_type>
+      <disk_3_mode></disk_3_mode>
+      <disk_3_partitions_aligned></disk_3_partitions_aligned>
+      <disk_3_size></disk_3_size>
+      <disk_3_size_on_disk></disk_3_size_on_disk>
+      <disk_3_used_percent_of_provisioned></disk_3_used_percent_of_provisioned>
+      <disk_4_disk_type></disk_4_disk_type>
+      <disk_4_mode></disk_4_mode>
+      <disk_4_partitions_aligned></disk_4_partitions_aligned>
+      <disk_4_size></disk_4_size>
+      <disk_4_size_on_disk></disk_4_size_on_disk>
+      <disk_4_used_percent_of_provisioned></disk_4_used_percent_of_provisioned>
+      <disk_5_disk_type></disk_5_disk_type>
+      <disk_5_mode></disk_5_mode>
+      <disk_5_partitions_aligned></disk_5_partitions_aligned>
+      <disk_5_size></disk_5_size>
+      <disk_5_size_on_disk></disk_5_size_on_disk>
+      <disk_5_used_percent_of_provisioned></disk_5_used_percent_of_provisioned>
+      <disk_6_disk_type></disk_6_disk_type>
+      <disk_6_mode></disk_6_mode>
+      <disk_6_partitions_aligned></disk_6_partitions_aligned>
+      <disk_6_size></disk_6_size>
+      <disk_6_size_on_disk></disk_6_size_on_disk>
+      <disk_6_used_percent_of_provisioned></disk_6_used_percent_of_provisioned>
+      <disk_7_disk_type></disk_7_disk_type>
+      <disk_7_mode></disk_7_mode>
+      <disk_7_partitions_aligned></disk_7_partitions_aligned>
+      <disk_7_size></disk_7_size>
+      <disk_7_size_on_disk></disk_7_size_on_disk>
+      <disk_7_used_percent_of_provisioned></disk_7_used_percent_of_provisioned>
+      <disk_8_disk_type></disk_8_disk_type>
+      <disk_8_mode></disk_8_mode>
+      <disk_8_partitions_aligned></disk_8_partitions_aligned>
+      <disk_8_size></disk_8_size>
+      <disk_8_size_on_disk></disk_8_size_on_disk>
+      <disk_8_used_percent_of_provisioned></disk_8_used_percent_of_provisioned>
+      <disk_9_disk_type></disk_9_disk_type>
+      <disk_9_mode></disk_9_mode>
+      <disk_9_partitions_aligned></disk_9_partitions_aligned>
+      <disk_9_size></disk_9_size>
+      <disk_9_size_on_disk></disk_9_size_on_disk>
+      <disk_9_used_percent_of_provisioned></disk_9_used_percent_of_provisioned>
+      <disk_size>0</disk_size>
+      <disks_aligned>Unknown</disks_aligned>
+      <ems_cluster_name>Finance</ems_cluster_name>
+      <evm_owner_email></evm_owner_email>
+      <evm_owner_name></evm_owner_name>
+      <evm_owner_userid></evm_owner_userid>
+      <first_drift_state_timestamp>2013-11-13 04:08:49 UTC</first_drift_state_timestamp>
+      <has_active_vdi_session>false</has_active_vdi_session>
+      <has_rdm_disk>false</has_rdm_disk>
+      <host_name></host_name>
+      <hostnames>[&quot;JH-Service-0005&quot;]</hostnames>
+      <ipaddresses>[&quot;192.168.1.2&quot;]</ipaddresses>
+      <is_evm_appliance>false</is_evm_appliance>
+      <last_compliance_status></last_compliance_status>
+      <last_compliance_timestamp></last_compliance_timestamp>
+      <last_drift_state_timestamp>2013-11-13 04:08:49 UTC</last_drift_state_timestamp>
+      <mac_addresses>[&quot;00:50:56:b3:71:f5&quot;]</mac_addresses>
+      <max_cpu_usage_rate_average_avg_over_time_period>2.9845596590909067</max_cpu_usage_rate_average_avg_over_time_period>
+      <max_cpu_usage_rate_average_avg_over_time_period_without_overhead>2.9845596590909067</max_cpu_usage_rate_average_avg_over_time_period_without_overhead>
+      <max_cpu_usage_rate_average_high_over_time_period>5.42484848484848</max_cpu_usage_rate_average_high_over_time_period>
+      <max_cpu_usage_rate_average_high_over_time_period_without_overhead>5.42484848484848</max_cpu_usage_rate_average_high_over_time_period_without_overhead>
+      <max_cpu_usage_rate_average_low_over_time_period>0.544270833333333</max_cpu_usage_rate_average_low_over_time_period>
+      <max_cpu_usage_rate_average_low_over_time_period_without_overhead>0.544270833333333</max_cpu_usage_rate_average_low_over_time_period_without_overhead>
+      <max_cpu_usage_rate_average_max_over_time_period>62.58</max_cpu_usage_rate_average_max_over_time_period>
+      <max_mem_usage_absolute_average_avg_over_time_period>10.68892045454545</max_mem_usage_absolute_average_avg_over_time_period>
+      <max_mem_usage_absolute_average_avg_over_time_period_without_overhead>10.68892045454545</max_mem_usage_absolute_average_avg_over_time_period_without_overhead>
+      <max_mem_usage_absolute_average_high_over_time_period>15.909090909090903</max_mem_usage_absolute_average_high_over_time_period>
+      <max_mem_usage_absolute_average_high_over_time_period_without_overhead>15.909090909090903</max_mem_usage_absolute_average_high_over_time_period_without_overhead>
+      <max_mem_usage_absolute_average_low_over_time_period>5.468749999999997</max_mem_usage_absolute_average_low_over_time_period>
+      <max_mem_usage_absolute_average_low_over_time_period_without_overhead>5.468749999999997</max_mem_usage_absolute_average_low_over_time_period_without_overhead>
+      <max_mem_usage_absolute_average_max_over_time_period>75.0</max_mem_usage_absolute_average_max_over_time_period>
+      <mem_cpu>2048</mem_cpu>
+      <memory_exceeds_current_host_headroom>false</memory_exceeds_current_host_headroom>
+      <moderate_mem_recommended_change>1720</moderate_mem_recommended_change>
+      <moderate_mem_recommended_change_pct>84.0</moderate_mem_recommended_change_pct>
+      <moderate_recommended_mem>328</moderate_recommended_mem>
+      <moderate_recommended_vcpus>1</moderate_recommended_vcpus>
+      <moderate_vcpus_recommended_change>0</moderate_vcpus_recommended_change>
+      <moderate_vcpus_recommended_change_pct>0.0</moderate_vcpus_recommended_change_pct>
+      <num_cpu>1</num_cpu>
+      <num_disks>1</num_disks>
+      <num_hard_disks>0</num_hard_disks>
+      <orphaned>false</orphaned>
+      <os_image_name>linux_redhat</os_image_name>
+      <overallocated_mem_pct>89.3</overallocated_mem_pct>
+      <overallocated_vcpus_pct>0.0</overallocated_vcpus_pct>
+      <owned_by_current_ldap_group>false</owned_by_current_ldap_group>
+      <owned_by_current_user>false</owned_by_current_user>
+      <owning_ldap_group></owning_ldap_group>
+      <paravirtualization></paravirtualization>
+      <parent_blue_folder_1_name></parent_blue_folder_1_name>
+      <parent_blue_folder_2_name></parent_blue_folder_2_name>
+      <parent_blue_folder_3_name></parent_blue_folder_3_name>
+      <parent_blue_folder_4_name></parent_blue_folder_4_name>
+      <parent_blue_folder_5_name></parent_blue_folder_5_name>
+      <parent_blue_folder_6_name></parent_blue_folder_6_name>
+      <parent_blue_folder_7_name></parent_blue_folder_7_name>
+      <parent_blue_folder_8_name></parent_blue_folder_8_name>
+      <parent_blue_folder_9_name></parent_blue_folder_9_name>
+      <platform>linux</platform>
+      <provisioned_storage>19327352832</provisioned_storage>
+      <recommended_mem>220</recommended_mem>
+      <recommended_vcpus>1</recommended_vcpus>
+      <region_description>Region 1</region_description>
+      <region_description>Region 1</region_description>
+      <region_description>Region 1</region_description>
+      <region_description>Region 1</region_description>
+      <region_number>1</region_number>
+      <region_number>1</region_number>
+      <region_number>1</region_number>
+      <region_number>1</region_number>
+      <snapshot_size>0</snapshot_size>
+      <storage_name></storage_name>
+      <thin_provisioned>true</thin_provisioned>
+      <uncommitted_storage>16881025024</uncommitted_storage>
+      <used_disk_storage>2446327808</used_disk_storage>
+      <used_storage>4593811456</used_storage>
+      <used_storage_by_state>2446327808</used_storage_by_state>
+      <v_annotation>
+        Owner: Email: Source Template: RHEL64_T MIQ
+        GUID=c209ce5e-4c17-11e3-bf27-005056b344b3 Parent Service: Test
+        (8bb0faa8-4c17-11e3-bf27-005056b344b3)
+      </v_annotation>
+      <v_datastore_path>JH-Service_0005/JH-Service_0005.vmx</v_datastore_path>
+      <v_host_vmm_product></v_host_vmm_product>
+      <v_is_a_template>False</v_is_a_template>
+      <v_owning_blue_folder></v_owning_blue_folder>
+      <v_owning_blue_folder_path></v_owning_blue_folder_path>
+      <v_owning_cluster>Finance</v_owning_cluster>
+      <v_owning_datacenter>London</v_owning_datacenter>
+      <v_owning_folder>Datacenters</v_owning_folder>
+      <v_owning_folder_path>Datacenters</v_owning_folder_path>
+      <v_owning_resource_pool></v_owning_resource_pool>
+      <v_pct_free_disk_space>60.79</v_pct_free_disk_space>
+      <v_pct_used_disk_space>39.21</v_pct_used_disk_space>
+      <v_snapshot_newest_description></v_snapshot_newest_description>
+      <v_snapshot_newest_name></v_snapshot_newest_name>
+      <v_snapshot_newest_timestamp></v_snapshot_newest_timestamp>
+      <v_snapshot_newest_total_size></v_snapshot_newest_total_size>
+      <v_snapshot_oldest_description></v_snapshot_oldest_description>
+      <v_snapshot_oldest_name></v_snapshot_oldest_name>
+      <v_snapshot_oldest_timestamp></v_snapshot_oldest_timestamp>
+      <v_snapshot_oldest_total_size></v_snapshot_oldest_total_size>
+      <v_total_snapshots>0</v_total_snapshots>
+      <vdi_available>false</vdi_available>
+      <vdi_connection_dns_name></vdi_connection_dns_name>
+      <vdi_connection_logon_server></vdi_connection_logon_server>
+      <vdi_connection_name></vdi_connection_name>
+      <vdi_connection_remote_ip_address></vdi_connection_remote_ip_address>
+      <vdi_connection_session_name></vdi_connection_session_name>
+      <vdi_connection_session_type></vdi_connection_session_type>
+      <vdi_connection_url></vdi_connection_url>
+      <vdi_endpoint_ip_address></vdi_endpoint_ip_address>
+      <vdi_endpoint_mac_address></vdi_endpoint_mac_address>
+      <vdi_endpoint_name></vdi_endpoint_name>
+      <vdi_endpoint_type></vdi_endpoint_type>
+      <vdi_user_appdata></vdi_user_appdata>
+      <vdi_user_dns_domain></vdi_user_dns_domain>
+      <vdi_user_domain></vdi_user_domain>
+      <vdi_user_home_drive></vdi_user_home_drive>
+      <vdi_user_home_path></vdi_user_home_path>
+      <vdi_user_home_share></vdi_user_home_share>
+      <vdi_user_logon_time></vdi_user_logon_time>
+      <vdi_user_name></vdi_user_name>
+      <vm_misc_size>0</vm_misc_size>
+      <vm_ram_size>0</vm_ram_size>
+      <vmsafe_agent_address></vmsafe_agent_address>
+      <vmsafe_agent_port></vmsafe_agent_port>
+      <vmsafe_enable></vmsafe_enable>
+      <vmsafe_fail_open></vmsafe_fail_open>
+      <vmsafe_immutable_vm></vmsafe_immutable_vm>
+      <vmsafe_timeout_ms></vmsafe_timeout_ms>
+    </virtual_columns>
+    <associations count='16'>
+      <datacenter>
+        <attributes count='9'>
+          <created_on>2013-11-11 16:19:57 UTC</created_on>
+          <ems_id>1000000000001</ems_id>
+          <ems_ref>datacenter-21</ems_ref>
+          <id>1000000000009</id>
+          <is_datacenter>true</is_datacenter>
+          <name>London</name>
+          <uid_ems>datacenter-21</uid_ems>
+          <updated_on>2013-11-11 16:19:57 UTC</updated_on>
+        </attributes>
+      </datacenter>
+      <direct_service>
+        <attributes count='18'>
+          <created_at>2013-11-13 03:56:16 UTC</created_at>
+          <description>Test</description>
+          <display>true</display>
+          <evm_owner_id>1000000000001</evm_owner_id>
+          <guid>8bb0faa8-4c17-11e3-bf27-005056b344b3</guid>
+          <id>1000000000005</id>
+          <miq_group_id>1000000000001</miq_group_id>
+          <name>Test</name>
+          <options count='0'/>
+          <retired></retired>
+          <retirement_last_warn></retirement_last_warn>
+          <retirement_state></retirement_state>
+          <retirement_warn></retirement_warn>
+          <retires_on></retires_on>
+          <service_id></service_id>
+          <service_template_id>1000000000001</service_template_id>
+          <type></type>
+          <updated_at>2013-11-13 04:05:59 UTC</updated_at>
+        </attributes>
+      </direct_service>
+      <ems_blue_folder/>
+      <ems_cluster>
+        <attributes count='17'>
+          <created_on>2013-11-11 16:19:54 UTC</created_on>
+          <drs_automation_level>manual</drs_automation_level>
+          <drs_enabled>true</drs_enabled>
+          <drs_migration_threshold>3</drs_migration_threshold>
+          <effective_cpu>105312</effective_cpu>
+          <effective_memory>135983529984</effective_memory>
+          <ems_id>1000000000001</ems_id>
+          <ems_ref>domain-c36</ems_ref>
+          <ha_admit_control>true</ha_admit_control>
+          <ha_enabled>true</ha_enabled>
+          <ha_max_failures>1</ha_max_failures>
+          <id>1000000000001</id>
+          <last_perf_capture_on></last_perf_capture_on>
+          <name>Finance</name>
+          <uid_ems>domain-c36</uid_ems>
+          <updated_on>2013-11-20 05:12:53 UTC</updated_on>
+        </attributes>
+      </ems_cluster>
+      <ems_folder>
+        <attributes count='9'>
+          <created_on>2013-11-11 16:19:57 UTC</created_on>
+          <ems_id>1000000000001</ems_id>
+          <ems_ref>group-d1</ems_ref>
+          <id>1000000000001</id>
+          <is_datacenter>false</is_datacenter>
+          <name>Datacenters</name>
+          <uid_ems>group-d1</uid_ems>
+          <updated_on>2013-11-11 16:19:57 UTC</updated_on>
+        </attributes>
+      </ems_folder>
+      <ext_management_system/>
+      <guest_applications/>
+      <hardware>
+        <attributes count='28'>
+          <annotation>
+            Owner: Email: Source Template: RHEL64_T MIQ
+            GUID=c209ce5e-4c17-11e3-bf27-005056b344b3 Parent Service: Test
+            (8bb0faa8-4c17-11e3-bf27-005056b344b3)
+          </annotation>
+          <bios>42338ebd-ae37-d5f8-0761-3fa930947be7</bios>
+          <bios_location></bios_location>
+          <bitness></bitness>
+          <config_version>vmx-10</config_version>
+          <cores_per_socket></cores_per_socket>
+          <cpu_speed></cpu_speed>
+          <cpu_type></cpu_type>
+          <cpu_usage></cpu_usage>
+          <disk_capacity>17179869184</disk_capacity>
+          <disk_free_space>10443852800</disk_free_space>
+          <guest_os>rhel6_64</guest_os>
+          <guest_os_full_name>Red Hat Enterprise Linux 6 (64-bit)</guest_os_full_name>
+          <host_id></host_id>
+          <id>1000000000082</id>
+          <logical_cpus></logical_cpus>
+          <manufacturer></manufacturer>
+          <memory_console></memory_console>
+          <memory_cpu>2048</memory_cpu>
+          <memory_usage></memory_usage>
+          <model></model>
+          <number_of_nics>1</number_of_nics>
+          <numvcpus>1</numvcpus>
+          <size_on_disk>17180181802</size_on_disk>
+          <time_sync></time_sync>
+          <virtual_hw_version>10</virtual_hw_version>
+          <vm_or_template_id>1000000000076</vm_or_template_id>
+          <vmotion_enabled></vmotion_enabled>
+        </attributes>
+      </hardware>
+      <host/>
+      <miq_provision>
+        <attributes count='19'>
+          <created_on>2013-11-13 03:56:16 UTC</created_on>
+          <description>Provision from [RHEL64_T] to [JH-Service_0005]</description>
+          <destination_id>1000000000076</destination_id>
+          <destination_type>VmOrTemplate</destination_type>
+          <id>1000000000054</id>
+          <message>VM Provisioned Successfully</message>
+          <miq_request_id>1000000000024</miq_request_id>
+          <miq_request_task_id>1000000000053</miq_request_task_id>
+          <options count='151'>
+            <addr_mode>[&quot;static&quot;, &quot;Static&quot;]</addr_mode>
+            <available_catalogs>[[&quot;Test&quot;, 1000000000001]]</available_catalogs>
+            <available_dialogs>{1000000000001=&gt;&quot;Test&quot;, 1000000000002=&gt;&quot;servicedemo&quot;}</available_dialogs>
+            <catalog_id>1000000000001</catalog_id>
+            <cluster_filter>[nil, nil]</cluster_filter>
+            <cores_per_socket>[1, &quot;1&quot;]</cores_per_socket>
+            <cpu_limit>-1</cpu_limit>
+            <cpu_reserve>0</cpu_reserve>
+            <current_tab_key>environment</current_tab_key>
+            <customization_template_script></customization_template_script>
+            <customize_enabled>[&quot;disabled&quot;]</customize_enabled>
+            <delivered_on></delivered_on>
+            <description>Test</description>
+            <dest_host>[1000000000002, &quot;rhc-06.rhc.lab.eng.bos.redhat.com&quot;]</dest_host>
+            <dest_storage>[1000000000002, &quot;rhc-06-local&quot;]</dest_storage>
+            <dialog_id>1000000000002</dialog_id>
+            <disk_format>[&quot;thin&quot;, &quot;Thin&quot;]</disk_format>
+            <display>true</display>
+            <dns_domain>acme.net</dns_domain>
+            <dns_servers>10.16.132.10, 10.16.132.41</dns_servers>
+            <dns_suffixes>acme.net</dns_suffixes>
+            <ds_filter>[nil, nil]</ds_filter>
+            <fqname>/Factory/StateMachines/ServiceProvision_Template/default</fqname>
+            <gateway>192.168.1.254</gateway>
+            <host_filter>[nil, nil]</host_filter>
+            <host_name>JH-Service_0005</host_name>
+            <hostname></hostname>
+            <initial_pass>true</initial_pass>
+            <ip_addr>192.168.1.2</ip_addr>
+            <ldap_ous>[nil, nil]</ldap_ous>
+            <linked_clone>[nil, nil]</linked_clone>
+            <linux_domain_name>acme.net</linux_domain_name>
+            <linux_host_name>JH-Service_0005</linux_host_name>
+            <long_description></long_description>
+            <mac_address></mac_address>
+            <memory_limit>-1</memory_limit>
+            <memory_reserve>0</memory_reserve>
+            <miq_force_unique_name>[true, 1]</miq_force_unique_name>
+            <miq_request_dialog_name>miq_provision_dialogs_template</miq_request_dialog_name>
+            <name>Test</name>
+            <network_adapters>[1, &quot;1&quot;]</network_adapters>
+            <networks>[{:network=&gt;&quot;VM Network&quot;, :mac_address=&gt;nil}]</networks>
+            <new_datastore_aggregate>[nil, nil]</new_datastore_aggregate>
+            <new_datastore_autogrow>[false, 0]</new_datastore_autogrow>
+            <new_datastore_create>[false, 0]</new_datastore_create>
+            <new_datastore_fs_type>[&quot;NFS&quot;, &quot;NFS&quot;]</new_datastore_fs_type>
+            <new_datastore_grow_increment></new_datastore_grow_increment>
+            <new_datastore_max_size></new_datastore_max_size>
+            <new_datastore_name></new_datastore_name>
+            <new_datastore_size></new_datastore_size>
+            <new_datastore_storage_controller>[nil, nil]</new_datastore_storage_controller>
+            <new_datastore_thin_provision></new_datastore_thin_provision>
+            <new_datastore_volume>[nil, nil]</new_datastore_volume>
+            <nic_settings>
+              [{:dns_domain=&gt;&quot;acme.net&quot;,
+              :dns_servers=&gt;&quot;10.16.132.10, 10.16.132.41&quot;,
+              :sysprep_netbios_mode=&gt;nil, :wins_servers=&gt;&quot;&quot;,
+              :addr_mode=&gt;[&quot;static&quot;, &quot;Static&quot;],
+              :gateway=&gt;&quot;192.168.1.254&quot;,
+              :subnet_mask=&gt;&quot;255.255.255.0&quot;,
+              :ip_addr=&gt;&quot;192.168.1.2&quot;}]
+            </nic_settings>
+            <number_of_sockets>[1, &quot;1&quot;]</number_of_sockets>
+            <number_of_vms>[1, &quot;1&quot;]</number_of_vms>
+            <owner_address></owner_address>
+            <owner_city></owner_city>
+            <owner_company></owner_company>
+            <owner_country></owner_country>
+            <owner_department></owner_department>
+            <owner_email></owner_email>
+            <owner_first_name></owner_first_name>
+            <owner_last_name></owner_last_name>
+            <owner_load_ldap></owner_load_ldap>
+            <owner_manager></owner_manager>
+            <owner_manager_mail></owner_manager_mail>
+            <owner_manager_phone></owner_manager_phone>
+            <owner_office></owner_office>
+            <owner_phone></owner_phone>
+            <owner_phone_mobile></owner_phone_mobile>
+            <owner_state></owner_state>
+            <owner_title></owner_title>
+            <owner_zip></owner_zip>
+            <pass>0</pass>
+            <placement_auto>[false, 0]</placement_auto>
+            <placement_cluster_name></placement_cluster_name>
+            <placement_dc_name>[1000000000009, &quot;London&quot;]</placement_dc_name>
+            <placement_ds_name>[1000000000002, &quot;rhc-06-local&quot;]</placement_ds_name>
+            <placement_folder_name></placement_folder_name>
+            <placement_host_name>[1000000000002, &quot;rhc-06.rhc.lab.eng.bos.redhat.com&quot;]</placement_host_name>
+            <placement_rp_name></placement_rp_name>
+            <provision_cost></provision_cost>
+            <provision_type>[&quot;vmware&quot;, &quot;VMware&quot;]</provision_type>
+            <purpose_enabled>[&quot;disabled&quot;]</purpose_enabled>
+            <pxe_server_id>[nil, nil]</pxe_server_id>
+            <request_notes></request_notes>
+            <requested_network_adapter_count>1</requested_network_adapter_count>
+            <requester_enabled>[&quot;disabled&quot;]</requester_enabled>
+            <retire_fqname></retire_fqname>
+            <retirement>[0, &quot;Indefinite&quot;]</retirement>
+            <retirement_warn>[604800, &quot;1 Week&quot;]</retirement_warn>
+            <root_password></root_password>
+            <rp_filter>[nil, nil]</rp_filter>
+            <schedule_time>2013-11-12 19:56:00 UTC</schedule_time>
+            <schedule_type>[&quot;immediately&quot;, &quot;Immediately on Approval&quot;]</schedule_type>
+            <service_guid>8bb0faa8-4c17-11e3-bf27-005056b344b3</service_guid>
+            <service_resource_id>1000000000010</service_resource_id>
+            <service_template_request>false</service_template_request>
+            <service_type>atomic</service_type>
+            <snapshot>[nil, nil]</snapshot>
+            <src_ems_id>[1000000000001, &quot;Virtual Center (10.16.132.40)&quot;]</src_ems_id>
+            <src_vm_id>[1000000000075, &quot;RHEL64_T&quot;]</src_vm_id>
+            <src_vm_lans>[&quot;VM Network&quot;]</src_vm_lans>
+            <src_vm_nics>[&quot;Network adapter 1&quot;]</src_vm_nics>
+            <st_prov_type>vmware</st_prov_type>
+            <start_date>11/12/2013</start_date>
+            <start_hour>19</start_hour>
+            <start_min>56</start_min>
+            <subnet_mask>255.255.255.0</subnet_mask>
+            <sysprep_auto_logon>[true, 1]</sysprep_auto_logon>
+            <sysprep_auto_logon_count>[1, &quot;1&quot;]</sysprep_auto_logon_count>
+            <sysprep_change_sid>[true, 1]</sysprep_change_sid>
+            <sysprep_computer_name></sysprep_computer_name>
+            <sysprep_custom_spec>[&quot;1000000000001&quot;, &quot;rhel&quot;]</sysprep_custom_spec>
+            <sysprep_delete_accounts>[false, 0]</sysprep_delete_accounts>
+            <sysprep_domain_admin></sysprep_domain_admin>
+            <sysprep_domain_name>
+              [&quot;rhc.lab.eng.bos.redhat.com&quot;,
+              &quot;rhc.lab.eng.bos.redhat.com&quot;]
+            </sysprep_domain_name>
+            <sysprep_domain_password></sysprep_domain_password>
+            <sysprep_enabled>[&quot;fields&quot;, &quot;Specification&quot;]</sysprep_enabled>
+            <sysprep_full_name></sysprep_full_name>
+            <sysprep_identification>[&quot;domain&quot;, &quot;Domain&quot;]</sysprep_identification>
+            <sysprep_organization></sysprep_organization>
+            <sysprep_password></sysprep_password>
+            <sysprep_per_server_max_connections>5</sysprep_per_server_max_connections>
+            <sysprep_product_id></sysprep_product_id>
+            <sysprep_server_license_mode>[&quot;perServer&quot;, &quot;Per server&quot;]</sysprep_server_license_mode>
+            <sysprep_spec_override>[true, 1]</sysprep_spec_override>
+            <sysprep_timezone>[nil, &quot;(GMT-12:00) International Date Line West&quot;]</sysprep_timezone>
+            <sysprep_upload_file></sysprep_upload_file>
+            <sysprep_upload_text></sysprep_upload_text>
+            <sysprep_workgroup_name>WORKGROUP</sysprep_workgroup_name>
+            <vdi_desktop_pool>[nil, nil]</vdi_desktop_pool>
+            <vdi_desktop_pool_create>[false, 0]</vdi_desktop_pool_create>
+            <vdi_desktop_pool_user_list></vdi_desktop_pool_user_list>
+            <vdi_enabled>[false, 0]</vdi_enabled>
+            <vdi_farm>[nil, nil]</vdi_farm>
+            <vdi_new_desktop_pool_assignment>[nil, nil]</vdi_new_desktop_pool_assignment>
+            <vdi_new_desktop_pool_name></vdi_new_desktop_pool_name>
+            <vlan>[&quot;VM Network&quot;, &quot;VM Network&quot;]</vlan>
+            <vm_auto_start>[false, 0]</vm_auto_start>
+            <vm_description></vm_description>
+            <vm_filter>[nil, nil]</vm_filter>
+            <vm_memory>[&quot;2048&quot;, &quot;2048&quot;]</vm_memory>
+            <vm_name>JH-Service</vm_name>
+            <vm_notes>Owner: Email: Source Template: RHEL64_T</vm_notes>
+            <vm_prefix></vm_prefix>
+            <vm_tags>[]</vm_tags>
+            <vm_target_hostname>JH-Service_0005</vm_target_hostname>
+            <vm_target_name>JH-Service_0005</vm_target_name>
+            <wins_servers></wins_servers>
+          </options>
+          <phase>finish</phase>
+          <phase_context count='0'/>
+          <request_type>template</request_type>
+          <source_id>1000000000075</source_id>
+          <source_type>VmOrTemplate</source_type>
+          <state>finished</state>
+          <status>Ok</status>
+          <type>MiqProvisionVmware</type>
+          <updated_on>2013-11-13 04:06:38 UTC</updated_on>
+          <userid>admin</userid>
+        </attributes>
+      </miq_provision>
+      <operating_system>
+        <attributes count='24'>
+          <bitness></bitness>
+          <build_number></build_number>
+          <distribution>redhat</distribution>
+          <host_id></host_id>
+          <id>1000000000082</id>
+          <lockout_duration></lockout_duration>
+          <lockout_threshold></lockout_threshold>
+          <max_pw_age></max_pw_age>
+          <min_pw_age></min_pw_age>
+          <min_pw_len></min_pw_len>
+          <name>hubba.dooie</name>
+          <product_key></product_key>
+          <product_name>Red Hat Enterprise Linux Server release 6.4 (Santiago)</product_name>
+          <product_type>Linux</product_type>
+          <productid></productid>
+          <pw_complex></pw_complex>
+          <pw_encrypt></pw_encrypt>
+          <pw_hist></pw_hist>
+          <reset_lockout_counter></reset_lockout_counter>
+          <service_pack></service_pack>
+          <system_root></system_root>
+          <system_type>unknown</system_type>
+          <version></version>
+          <vm_or_template_id>1000000000076</vm_or_template_id>
+        </attributes>
+      </operating_system>
+      <owner/>
+      <resource_pool/>
+      <service>
+        <attributes count='18'>
+          <created_at>2013-11-13 03:56:16 UTC</created_at>
+          <description>Test</description>
+          <display>true</display>
+          <evm_owner_id>1000000000001</evm_owner_id>
+          <guid>8bb0faa8-4c17-11e3-bf27-005056b344b3</guid>
+          <id>1000000000005</id>
+          <miq_group_id>1000000000001</miq_group_id>
+          <name>Test</name>
+          <options count='0'/>
+          <retired></retired>
+          <retirement_last_warn></retirement_last_warn>
+          <retirement_state></retirement_state>
+          <retirement_warn></retirement_warn>
+          <retires_on></retires_on>
+          <service_id></service_id>
+          <service_template_id>1000000000001</service_template_id>
+          <type></type>
+          <updated_at>2013-11-13 04:05:59 UTC</updated_at>
+        </attributes>
+      </service>
+      <snapshots/>
+      <storage/>
+    </associations>
+  </JH-Service_0005>
+</root>

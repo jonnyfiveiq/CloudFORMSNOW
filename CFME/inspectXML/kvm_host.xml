@@ -1,0 +1,312 @@
+<?xml version='1.0'?>
+<root>
+  <kvm1.acme.net type='host' count='32'>
+    <attributes count='32'>
+      <admin_disabled></admin_disabled>
+      <asset_tag></asset_tag>
+      <connection_state>connected</connection_state>
+      <created_on>2013-11-14 19:52:57 UTC</created_on>
+      <ems_cluster_id>1000000000005</ems_cluster_id>
+      <ems_id>1000000000002</ems_id>
+      <ems_ref>/api/hosts/1a7714f4-db2c-425a-974f-f57b80673e4f</ems_ref>
+      <failover></failover>
+      <guid>5c0facb8-4d66-11e3-806c-005056b344b3</guid>
+      <hostname>kvm1.acme.net</hostname>
+      <hyperthreading></hyperthreading>
+      <id>1000000000007</id>
+      <ipaddress>10.16.132.44</ipaddress>
+      <ipmi_address></ipmi_address>
+      <last_perf_capture_on></last_perf_capture_on>
+      <mac_address></mac_address>
+      <name>kvm1.acme.net</name>
+      <next_available_vnc_port></next_available_vnc_port>
+      <power_state>on</power_state>
+      <service_tag></service_tag>
+      <settings></settings>
+      <smart>1</smart>
+      <ssh_permit_root_login></ssh_permit_root_login>
+      <type>HostRedhat</type>
+      <uid_ems>1a7714f4-db2c-425a-974f-f57b80673e4f</uid_ems>
+      <updated_on>2013-11-20 15:47:24 UTC</updated_on>
+      <user_assigned_os></user_assigned_os>
+      <vmm_buildnumber></vmm_buildnumber>
+      <vmm_product>rhel</vmm_product>
+      <vmm_vendor>redhat</vmm_vendor>
+      <vmm_version></vmm_version>
+    </attributes>
+    <virtual_columns count='65'>
+      <all_enabled_ports>[]</all_enabled_ports>
+      <authentication_status>Valid</authentication_status>
+      <cpu_usagemhz_rate_average_avg_over_time_period></cpu_usagemhz_rate_average_avg_over_time_period>
+      <cpu_usagemhz_rate_average_high_over_time_period></cpu_usagemhz_rate_average_high_over_time_period>
+      <cpu_usagemhz_rate_average_low_over_time_period></cpu_usagemhz_rate_average_low_over_time_period>
+      <custom_1></custom_1>
+      <custom_2></custom_2>
+      <custom_3></custom_3>
+      <custom_4></custom_4>
+      <custom_5></custom_5>
+      <custom_6></custom_6>
+      <custom_7></custom_7>
+      <custom_8></custom_8>
+      <custom_9></custom_9>
+      <derived_memory_used_avg_over_time_period></derived_memory_used_avg_over_time_period>
+      <derived_memory_used_high_over_time_period></derived_memory_used_high_over_time_period>
+      <derived_memory_used_low_over_time_period></derived_memory_used_low_over_time_period>
+      <enabled_inbound_ports>[]</enabled_inbound_ports>
+      <enabled_outbound_ports>[]</enabled_outbound_ports>
+      <enabled_run_level_0_services>[]</enabled_run_level_0_services>
+      <enabled_run_level_1_services>
+        [&quot;acpid&quot;, &quot;auditd&quot;, &quot;blk-availability&quot;,
+        &quot;cgconfig&quot;, &quot;cpuspeed&quot;, &quot;crond&quot;,
+        &quot;cups&quot;, &quot;ip6tables&quot;, &quot;iptables&quot;,
+        &quot;lvm2-monitor&quot;, &quot;mdmonitor&quot;, &quot;messagebus&quot;,
+        &quot;network&quot;, &quot;portreserve&quot;, &quot;postfix&quot;,
+        &quot;rhnsd&quot;, &quot;rpcbind&quot;, &quot;rsyslog&quot;,
+        &quot;sanlock&quot;, &quot;sshd&quot;, &quot;sysstat&quot;,
+        &quot;tuned&quot;, &quot;udev-post&quot;,
+        &quot;vdsm-restore-net-config&quot;, &quot;vdsmd&quot;,
+        &quot;virt-who&quot;, &quot;wdmd&quot;]
+      </enabled_run_level_1_services>
+      <enabled_run_level_2_services>
+        [&quot;acpid&quot;, &quot;auditd&quot;, &quot;blk-availability&quot;,
+        &quot;cgconfig&quot;, &quot;cpuspeed&quot;, &quot;crond&quot;,
+        &quot;cups&quot;, &quot;ip6tables&quot;, &quot;iptables&quot;,
+        &quot;lvm2-monitor&quot;, &quot;mdmonitor&quot;, &quot;messagebus&quot;,
+        &quot;network&quot;, &quot;portreserve&quot;, &quot;postfix&quot;,
+        &quot;rhnsd&quot;, &quot;rpcbind&quot;, &quot;rsyslog&quot;,
+        &quot;sanlock&quot;, &quot;sshd&quot;, &quot;sysstat&quot;,
+        &quot;tuned&quot;, &quot;udev-post&quot;,
+        &quot;vdsm-restore-net-config&quot;, &quot;vdsmd&quot;,
+        &quot;virt-who&quot;, &quot;wdmd&quot;]
+      </enabled_run_level_2_services>
+      <enabled_run_level_3_services>
+        [&quot;abrt-ccpp&quot;, &quot;abrt-oops&quot;, &quot;abrtd&quot;,
+        &quot;acpid&quot;, &quot;atd&quot;, &quot;auditd&quot;,
+        &quot;autofs&quot;, &quot;blk-availability&quot;,
+        &quot;certmonger&quot;, &quot;cgconfig&quot;, &quot;cpuspeed&quot;,
+        &quot;crond&quot;, &quot;cups&quot;, &quot;haldaemon&quot;,
+        &quot;hypervkvpd&quot;, &quot;ip6tables&quot;, &quot;iptables&quot;,
+        &quot;irqbalance&quot;, &quot;iscsi&quot;, &quot;iscsid&quot;,
+        &quot;kdump&quot;, &quot;ktune&quot;, &quot;lvm2-monitor&quot;,
+        &quot;mcelogd&quot;, &quot;mdmonitor&quot;, &quot;messagebus&quot;,
+        &quot;netfs&quot;, &quot;network&quot;, &quot;nfslock&quot;,
+        &quot;portreserve&quot;, &quot;postfix&quot;, &quot;rhnsd&quot;,
+        &quot;rhsmcertd&quot;, &quot;rpcbind&quot;, &quot;rpcgssd&quot;,
+        &quot;rpcidmapd&quot;, &quot;rsyslog&quot;, &quot;sanlock&quot;,
+        &quot;sshd&quot;, &quot;sysstat&quot;, &quot;tuned&quot;,
+        &quot;udev-post&quot;, &quot;vdsm-restore-net-config&quot;,
+        &quot;vdsmd&quot;, &quot;virt-who&quot;, &quot;wdmd&quot;]
+      </enabled_run_level_3_services>
+      <enabled_run_level_4_services>
+        [&quot;acpid&quot;, &quot;atd&quot;, &quot;auditd&quot;,
+        &quot;autofs&quot;, &quot;blk-availability&quot;,
+        &quot;certmonger&quot;, &quot;cgconfig&quot;, &quot;cpuspeed&quot;,
+        &quot;crond&quot;, &quot;cups&quot;, &quot;haldaemon&quot;,
+        &quot;hypervkvpd&quot;, &quot;ip6tables&quot;, &quot;iptables&quot;,
+        &quot;irqbalance&quot;, &quot;iscsi&quot;, &quot;iscsid&quot;,
+        &quot;kdump&quot;, &quot;ktune&quot;, &quot;lvm2-monitor&quot;,
+        &quot;mdmonitor&quot;, &quot;messagebus&quot;, &quot;netfs&quot;,
+        &quot;network&quot;, &quot;nfslock&quot;, &quot;portreserve&quot;,
+        &quot;postfix&quot;, &quot;rhnsd&quot;, &quot;rhsmcertd&quot;,
+        &quot;rpcbind&quot;, &quot;rpcgssd&quot;, &quot;rpcidmapd&quot;,
+        &quot;rsyslog&quot;, &quot;sanlock&quot;, &quot;sshd&quot;,
+        &quot;sysstat&quot;, &quot;tuned&quot;, &quot;udev-post&quot;,
+        &quot;vdsm-restore-net-config&quot;, &quot;vdsmd&quot;,
+        &quot;virt-who&quot;, &quot;wdmd&quot;]
+      </enabled_run_level_4_services>
+      <enabled_run_level_5_services>
+        [&quot;abrt-ccpp&quot;, &quot;abrt-oops&quot;, &quot;abrtd&quot;,
+        &quot;acpid&quot;, &quot;atd&quot;, &quot;auditd&quot;,
+        &quot;autofs&quot;, &quot;blk-availability&quot;,
+        &quot;certmonger&quot;, &quot;cgconfig&quot;, &quot;cpuspeed&quot;,
+        &quot;crond&quot;, &quot;cups&quot;, &quot;haldaemon&quot;,
+        &quot;hypervkvpd&quot;, &quot;ip6tables&quot;, &quot;iptables&quot;,
+        &quot;irqbalance&quot;, &quot;iscsi&quot;, &quot;iscsid&quot;,
+        &quot;kdump&quot;, &quot;ktune&quot;, &quot;lvm2-monitor&quot;,
+        &quot;mcelogd&quot;, &quot;mdmonitor&quot;, &quot;messagebus&quot;,
+        &quot;netfs&quot;, &quot;network&quot;, &quot;nfslock&quot;,
+        &quot;portreserve&quot;, &quot;postfix&quot;, &quot;rhnsd&quot;,
+        &quot;rhsmcertd&quot;, &quot;rpcbind&quot;, &quot;rpcgssd&quot;,
+        &quot;rpcidmapd&quot;, &quot;rsyslog&quot;, &quot;sanlock&quot;,
+        &quot;sshd&quot;, &quot;sysstat&quot;, &quot;tuned&quot;,
+        &quot;udev-post&quot;, &quot;vdsm-restore-net-config&quot;,
+        &quot;vdsmd&quot;, &quot;virt-who&quot;, &quot;wdmd&quot;]
+      </enabled_run_level_5_services>
+      <enabled_run_level_6_services>[]</enabled_run_level_6_services>
+      <enabled_tcp_inbound_ports>[]</enabled_tcp_inbound_ports>
+      <enabled_tcp_outbound_ports>[]</enabled_tcp_outbound_ports>
+      <enabled_udp_inbound_ports>[]</enabled_udp_inbound_ports>
+      <enabled_udp_outbound_ports>[]</enabled_udp_outbound_ports>
+      <first_drift_state_timestamp>2013-11-20 15:47:24 UTC</first_drift_state_timestamp>
+      <ipmi_enabled>false</ipmi_enabled>
+      <last_compliance_status></last_compliance_status>
+      <last_compliance_timestamp></last_compliance_timestamp>
+      <last_drift_state_timestamp>2013-11-20 15:47:24 UTC</last_drift_state_timestamp>
+      <last_scan_on>2013-11-20 15:47:24 UTC</last_scan_on>
+      <max_cpu_usage_rate_average_avg_over_time_period></max_cpu_usage_rate_average_avg_over_time_period>
+      <max_cpu_usage_rate_average_avg_over_time_period_without_overhead></max_cpu_usage_rate_average_avg_over_time_period_without_overhead>
+      <max_cpu_usage_rate_average_high_over_time_period></max_cpu_usage_rate_average_high_over_time_period>
+      <max_cpu_usage_rate_average_high_over_time_period_without_overhead></max_cpu_usage_rate_average_high_over_time_period_without_overhead>
+      <max_cpu_usage_rate_average_low_over_time_period></max_cpu_usage_rate_average_low_over_time_period>
+      <max_cpu_usage_rate_average_low_over_time_period_without_overhead></max_cpu_usage_rate_average_low_over_time_period_without_overhead>
+      <max_mem_usage_absolute_average_avg_over_time_period></max_mem_usage_absolute_average_avg_over_time_period>
+      <max_mem_usage_absolute_average_avg_over_time_period_without_overhead></max_mem_usage_absolute_average_avg_over_time_period_without_overhead>
+      <max_mem_usage_absolute_average_high_over_time_period></max_mem_usage_absolute_average_high_over_time_period>
+      <max_mem_usage_absolute_average_high_over_time_period_without_overhead></max_mem_usage_absolute_average_high_over_time_period_without_overhead>
+      <max_mem_usage_absolute_average_low_over_time_period></max_mem_usage_absolute_average_low_over_time_period>
+      <max_mem_usage_absolute_average_low_over_time_period_without_overhead></max_mem_usage_absolute_average_low_over_time_period_without_overhead>
+      <os_image_name>linux_generic</os_image_name>
+      <platform>linux</platform>
+      <ram_size>9892</ram_size>
+      <region_description>Region 1</region_description>
+      <region_description>Region 1</region_description>
+      <region_number>1</region_number>
+      <region_number>1</region_number>
+      <service_names>
+        [&quot;abrt-ccpp&quot;, &quot;abrt-oops&quot;, &quot;abrtd&quot;,
+        &quot;acpid&quot;, &quot;atd&quot;, &quot;auditd&quot;,
+        &quot;autofs&quot;, &quot;blk-availability&quot;,
+        &quot;certmonger&quot;, &quot;cgconfig&quot;, &quot;cgred&quot;,
+        &quot;cpuspeed&quot;, &quot;crond&quot;, &quot;cups&quot;,
+        &quot;dhcpd&quot;, &quot;dhcpd6&quot;, &quot;dhcrelay&quot;,
+        &quot;dnsmasq&quot;, &quot;ebtables&quot;, &quot;haldaemon&quot;,
+        &quot;hypervkvpd&quot;, &quot;ip6tables&quot;, &quot;ipmievd&quot;,
+        &quot;iptables&quot;, &quot;irqbalance&quot;, &quot;iscsi&quot;,
+        &quot;iscsid&quot;, &quot;kdump&quot;, &quot;ktune&quot;,
+        &quot;libvirt-guests&quot;, &quot;libvirtd&quot;,
+        &quot;lvm2-monitor&quot;, &quot;mcelogd&quot;, &quot;mdmonitor&quot;,
+        &quot;messagebus&quot;, &quot;multipathd&quot;, &quot;netconsole&quot;,
+        &quot;netfs&quot;, &quot;network&quot;, &quot;nfs&quot;,
+        &quot;nfslock&quot;, &quot;ntpd&quot;, &quot;ntpdate&quot;,
+        &quot;numad&quot;, &quot;oddjobd&quot;, &quot;portreserve&quot;,
+        &quot;postfix&quot;, &quot;psacct&quot;, &quot;quota_nld&quot;,
+        &quot;radvd&quot;, &quot;rdisc&quot;, &quot;restorecond&quot;,
+        &quot;rhnsd&quot;, &quot;rhsmcertd&quot;, &quot;rngd&quot;,
+        &quot;rpcbind&quot;, &quot;rpcgssd&quot;, &quot;rpcidmapd&quot;,
+        &quot;rpcsvcgssd&quot;, &quot;rsyslog&quot;, &quot;sanlock&quot;,
+        &quot;saslauthd&quot;, &quot;smartd&quot;, &quot;sshd&quot;,
+        &quot;sssd&quot;, &quot;sysstat&quot;, &quot;tuned&quot;,
+        &quot;udev-post&quot;, &quot;vdsm-restore-net-config&quot;,
+        &quot;vdsmd&quot;, &quot;virt-who&quot;, &quot;wdmd&quot;,
+        &quot;winbind&quot;, &quot;ypbind&quot;]
+      </service_names>
+      <total_cores>1</total_cores>
+      <total_vcpus>1</total_vcpus>
+      <v_annotation></v_annotation>
+      <v_owning_cluster>Marketing</v_owning_cluster>
+      <v_owning_datacenter></v_owning_datacenter>
+      <v_owning_folder></v_owning_folder>
+      <v_total_miq_templates>0</v_total_miq_templates>
+      <v_total_storages>3</v_total_storages>
+      <v_total_vms>2</v_total_vms>
+    </virtual_columns>
+    <associations count='12'>
+      <datacenter/>
+      <ems_cluster>
+        <attributes count='17'>
+          <created_on>2013-11-14 19:52:57 UTC</created_on>
+          <drs_automation_level></drs_automation_level>
+          <drs_enabled></drs_enabled>
+          <drs_migration_threshold></drs_migration_threshold>
+          <effective_cpu></effective_cpu>
+          <effective_memory></effective_memory>
+          <ems_id>1000000000002</ems_id>
+          <ems_ref>/api/clusters/0b6f7a99-656d-4b85-98ec-df8f20e0a5ac</ems_ref>
+          <ha_admit_control></ha_admit_control>
+          <ha_enabled></ha_enabled>
+          <ha_max_failures></ha_max_failures>
+          <id>1000000000005</id>
+          <last_perf_capture_on></last_perf_capture_on>
+          <name>Marketing</name>
+          <uid_ems>0b6f7a99-656d-4b85-98ec-df8f20e0a5ac</uid_ems>
+          <updated_on>2013-11-14 19:52:57 UTC</updated_on>
+        </attributes>
+      </ems_cluster>
+      <ems_events/>
+      <ems_folder/>
+      <ext_management_system>
+        <attributes count='14'>
+          <api_version>3.2.0.0</api_version>
+          <created_on>2013-11-14 19:51:57 UTC</created_on>
+          <guid>38592cea-4d66-11e3-b76e-005056b344b3</guid>
+          <host_default_vnc_port_end></host_default_vnc_port_end>
+          <host_default_vnc_port_start></host_default_vnc_port_start>
+          <hostname>10.16.132.42</hostname>
+          <id>1000000000002</id>
+          <ipaddress>10.16.132.42</ipaddress>
+          <name>RHEV</name>
+          <port></port>
+          <type>EmsRedhat</type>
+          <uid_ems></uid_ems>
+          <updated_on>2013-11-14 19:52:56 UTC</updated_on>
+          <zone_id>1000000000001</zone_id>
+        </attributes>
+      </ext_management_system>
+      <guest_applications/>
+      <hardware>
+        <attributes count='28'>
+          <annotation></annotation>
+          <bios></bios>
+          <bios_location></bios_location>
+          <bitness></bitness>
+          <config_version></config_version>
+          <cores_per_socket>1</cores_per_socket>
+          <cpu_speed>2400</cpu_speed>
+          <cpu_type>Intel(R) Xeon(R) CPU E5645 @ 2.40GHz</cpu_type>
+          <cpu_usage></cpu_usage>
+          <disk_capacity></disk_capacity>
+          <disk_free_space></disk_free_space>
+          <guest_os></guest_os>
+          <guest_os_full_name></guest_os_full_name>
+          <host_id>1000000000007</host_id>
+          <id>1000000000134</id>
+          <logical_cpus>1</logical_cpus>
+          <manufacturer></manufacturer>
+          <memory_console></memory_console>
+          <memory_cpu>9892</memory_cpu>
+          <memory_usage></memory_usage>
+          <model></model>
+          <number_of_nics></number_of_nics>
+          <numvcpus>1</numvcpus>
+          <size_on_disk></size_on_disk>
+          <time_sync></time_sync>
+          <virtual_hw_version></virtual_hw_version>
+          <vm_or_template_id></vm_or_template_id>
+          <vmotion_enabled></vmotion_enabled>
+        </attributes>
+      </hardware>
+      <lans/>
+      <operating_system>
+        <attributes count='24'>
+          <bitness></bitness>
+          <build_number></build_number>
+          <distribution></distribution>
+          <host_id>1000000000007</host_id>
+          <id>1000000000134</id>
+          <lockout_duration></lockout_duration>
+          <lockout_threshold></lockout_threshold>
+          <max_pw_age></max_pw_age>
+          <min_pw_age></min_pw_age>
+          <min_pw_len></min_pw_len>
+          <name>kvm1.acme.net</name>
+          <product_key></product_key>
+          <product_name>linux</product_name>
+          <product_type></product_type>
+          <productid></productid>
+          <pw_complex></pw_complex>
+          <pw_encrypt></pw_encrypt>
+          <pw_hist></pw_hist>
+          <reset_lockout_counter></reset_lockout_counter>
+          <service_pack></service_pack>
+          <system_root></system_root>
+          <system_type></system_type>
+          <version></version>
+          <vm_or_template_id></vm_or_template_id>
+        </attributes>
+      </operating_system>
+      <storages/>
+      <switches/>
+      <vms/>
+    </associations>
+  </kvm1.acme.net>
+</root>
