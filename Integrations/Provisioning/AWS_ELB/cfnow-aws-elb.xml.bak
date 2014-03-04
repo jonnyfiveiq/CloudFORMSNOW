@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MiqAeDatastore version="1.0"> 
+<MiqAeClass name="awsdemo" namespace="cfnow" description="awsdemo" display_name="awsdemo">
+    <MiqAeMethod name="add_to_nlb" language="ruby" scope="instance" location="inline" display_name="add_to_nlb"><![CDATA[# John Hardy
+# CloudFORMSnow.com
+# v1.0
+# 
+# Add to AWS ELB Child Generic Service Method
+#
+require 'aws-sdk'
+
+$evm.log("info", "------------------------------ADD TO AWS LOAD BALANCER------------------------------\n")
+
+stp_task = $evm.root["service_template_provision_task"]
+miq_request_id = $evm.vmdb('miq_request_task', stp_task.get_option(:parent_task_id))
+dialogOptions = miq_request_id.get_option(:dialog)
+$evm.log("info", "ELB New ELB Name --> #{dialogOptions['dialog_elbName)']}\n")
+$evm.log("info", "ELB Existing ELB --> #{dialogOptions['dialog_existingELB']}\n")
+$evm.log("info", "Add to ELB Enabled --> #{dialogOptions['dialog_elb']}\n")
+
+miqr = $evm.vmdb('service', stp_task.get_option(:parent_service_id))
+
+instanceH = Hash.new('instances')
+instanceA = Array.new
+
+i = 0
+unless miqr.vms.nil?
+  miqr.vms.each do |vm|
+    i = i.to_i + 1
+    $evm.log("info", "------------ VM #{i} ----------\n")
+    $evm.log("info", "Instance Name --> #{vm.name}\n")
+    $evm.log("info", "Instnace ID --> #{vm.ems_ref}\n")
+    $evm.log("info", "DNS Name --> #{vm.location}\n")
+    $evm.log("info", "PowerState --> #{vm.power_state}\n")
+    $evm.log("info", "Active --> #{vm.active}\n")
+    instanceA << {:instance_id => vm.ems_ref}
+    $evm.log("info", "------------ VM #{i} ----------\n")
+
+  end
+end
+
+vmCount = miqr.vms.count
+instanceCount = instanceA.size
+
+$evm.log("info", "VMs Count --> #{vmCount}\n")
+$evm.log("info", "instanceA Count --> #{instanceCount}\n")
+
+if vmCount > 0 && vmCount = instanceCount
+  $evm.log("info", "Add to ELB --> #{dialogOptions['dialog_elb']}\n")
+  if dialogOptions['dialog_elb'].to_s == "1"
+    if dialogOptions['dialog_existingELB'] != " None"
+      $evm.log("info", "Using Existing ELB #{dialogOptions['dialog_existingELB']}\n")
+      elbName = dialogOptions['dialog_existingELB']
+    elsif dialogOptions['dialog_elbName'] != "&lt;new name&gt;"
+      $evm.log("info", "Creating NEW ELB #{dialogOptions['dialog_elbName']}\n")
+      elbName = dialogOptions['dialog_elbName']
+
+      #create the ELB
+
+    else
+      $evm.log("info", "Neither New ELB or Existing ELB was set!\n")
+    end
+    $evm.log("info", "Using ELB #{elbName}\n")
+    AWS.config(:access_key_id => ‘***********’, :secret_access_key => ‘********************’)
+
+    ec2 = AWS::EC2.new
+    elb = AWS::ELB.new
+
+    miqr.vms.each do |vm|
+      $evm.log("info", "Adding #{vm.ems_ref} to ELB #{elbName}\n")
+      i = ec2.instances["#{vm.ems_ref}"]
+      elb.load_balancers["#{elbName}"].instances.register(i)
+    end
+  end
+
+
+  $evm.log("info", "--------------------END----------------------\n")
+
+else
+  passNo = stp_task.get_option(:pass)
+  passNo = passNo.to_i + 1
+  stp_task.set_option(:pass, "#{passNo}")
+  $evm.log("info", "Pass Number #{passNo}\n")
+
+
+  $evm.root['ae_result'] = 'retry'
+  $evm.root['ae_retry_interval'] = '30.seconds'
+  $evm.log("info", "-------------------RETRY-----------------------\n")
+
+  exit MIQ_OK
+end
+
+target.close
+
+
+#
+#
+#
+exit MIQ_OK]]>    </MiqAeMethod>
+    <MiqAeMethod name="error_nlb" language="ruby" scope="instance" location="inline" display_name="error_nlb"><![CDATA[#
+$evm.log("info", "------------------------------ERROR AWS LOAD BALANCER------------------------------")
+#
+#
+#
+$evm.log("info", "Automate Method Ended")
+exit MIQ_OK]]>    </MiqAeMethod>
+    <MiqAeSchema>
+      <MiqAeField name="state1" substitute="true" aetype="state" display_name="state1" datatype="string" priority="1" message="create" description="state1" max_retries="100">
+      </MiqAeField>
+    </MiqAeSchema>
+    <MiqAeInstance name="loadbalancer" display_name="loadbalancer" description="loadbalancer">
+      <MiqAeField name="state1" on_entry="add_to_nlb" on_error="error_nlb">
+        <![CDATA[]]>
+      </MiqAeField>
+    </MiqAeInstance>
+  </MiqAeClass>
+  <MiqAeClass name="dialog_dropdowns" namespace="cfnow" description="dialog_dropdowns" display_name="dialog_dropdowns">
+    <MiqAeMethod name="aws_ELBs" language="ruby" scope="instance" location="inline" display_name="aws_ELBs"><![CDATA[# CFME Automate Method: GetEmsList.rb
+# Require necessary gems
+require 'rubygems'
+require 'aws-sdk'
+
+AWS.config(:access_key_id => '********', :secret_access_key => '********')
+
+elb = AWS::ELB.new
+intsance_ids = elb.load_balancers
+
+dialog_field = $evm.object
+dialog_field = Hash.new "values"
+
+$evm.log("info","ELB Collections --> #{intsance_ids}")
+  
+dialog_field.store(" None", " None")
+
+intsance_ids.each do | el |
+  $evm.log("info","ELB Found --> #{el.name}")
+  dialog_field.store(el.name, "#{el.name}")
+end
+
+
+dialog_fields = $evm.object
+dialog_fields['values'] = dialog_field
+
+exit MIQ_OK]]>    </MiqAeMethod>
+    <MiqAeSchema>
+      <MiqAeField name="method1" substitute="true" aetype="method" datatype="string" priority="1" message="create">
+      </MiqAeField>
+    </MiqAeSchema>
+    <MiqAeInstance name="aws_ELBs" display_name="aws_ELBs" description="aws_ELBs">
+      <MiqAeField name="method1">
+        aws_ELBs      </MiqAeField>
+    </MiqAeInstance>
+  </MiqAeClass>
+</MiqAeDatastore>
