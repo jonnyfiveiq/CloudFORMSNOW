@@ -1,0 +1,49 @@
+---
+- description: Service Test
+  buttons: submit,cancel
+  label: Service Test
+  dialog_tabs:
+  - description: Tab
+    display: edit
+    label: Tab
+    display_method: 
+    display_method_options: 
+    position: 0
+    dialog_groups:
+    - description: Box
+      display: edit
+      label: Box
+      display_method: 
+      display_method_options: 
+      position: 0
+      dialog_fields:
+      - name: environment
+        description: Environment
+        type: DialogFieldRadioButton
+        data_type: string
+        notes: 
+        notes_display: 
+        display: edit
+        display_method: 
+        display_method_options: {}
+        required: true
+        required_method: 
+        required_method_options: {}
+        default_value: test
+        values:
+        - - production
+          - Production
+        - - qa
+          - QA
+        - - test
+          - Test
+        values_method: 
+        values_method_options: {}
+        options:
+          :sort_by: :description
+          :sort_order: :ascending
+        label: Environment
+        position: 0
+        validator_type: 
+        validator_rule: 
+
