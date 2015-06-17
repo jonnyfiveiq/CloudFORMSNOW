@@ -85,7 +85,7 @@
     "DatabaseTemplate": {
       "Type": "AWS::CloudFormation::Stack",
       "Properties": {
-        "TemplateURL": "https://raw.github.com/openstack/heat-templates/master/cfn/F17/MySQL_Single_Instance.template",
+        "TemplateURL": "https://raw.githubusercontent.com/jonnyfiveiq/CloudFORMSNOW/master/wordpress.stack",
         "Parameters": {
           "KeyName"           : { "Ref" : "KeyName" },
           "InstanceType"      : { "Ref" : "InstanceType" },
