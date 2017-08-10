@@ -1,0 +1,185 @@
+
+PLAY [Gather info about containers] **********************************************************************************************
+
+TASK [Gathering Facts] ***********************************************************************************************************
+ok: [rhel74.home]
+
+TASK [unruffled_boyd] ************************************************************************************************************
+ok: [rhel74.home]
+
+TASK [debug] *********************************************************************************************************************
+ok: [rhel74.home] => {
+    "result": {
+        "changed": false, 
+        "images": [
+            {
+                "Architecture": "amd64", 
+                "Author": "ManageIQ https://github.com/ManageIQ/manageiq-appliance-build", 
+                "Comment": "", 
+                "Config": {
+                    "ArgsEscaped": true, 
+                    "AttachStderr": false, 
+                    "AttachStdin": false, 
+                    "AttachStdout": false, 
+                    "Cmd": [
+                        "/usr/sbin/init"
+                    ], 
+                    "Domainname": "", 
+                    "Entrypoint": null, 
+                    "Env": [
+                        "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin", 
+                        "container=docker", 
+                        "LANG=en_US.UTF-8", 
+                        "TERM=xterm", 
+                        "RUBY_GEMS_ROOT=/opt/rubies/ruby-2.3.1/lib/ruby/gems/2.3.0", 
+                        "APP_ROOT=/var/www/miq/vmdb", 
+                        "APPLIANCE_ROOT=/opt/manageiq/manageiq-appliance", 
+                        "SUI_ROOT=/opt/manageiq/manageiq-ui-service"
+                    ], 
+                    "ExposedPorts": {
+                        "22/tcp": {}, 
+                        "443/tcp": {}, 
+                        "80/tcp": {}
+                    }, 
+                    "Hostname": "c7947be2eb9d", 
+                    "Image": "sha256:1a86902b40fcd8e65fdd6179e86dcbc2b7a042b5fed6852c22e90289d616ed93", 
+                    "Labels": {
+                        "INSTALL": "docker run -ti                 --name ${NAME}_volume                 --entrypoint /usr/bin/docker_initdb                 $IMAGE", 
+                        "RUN": "docker run -di             --name ${NAME}_run             -v /etc/localtime:/etc/localtime:ro             --volumes-from ${NAME}_volume             -p 80:80             -p 443:443             $IMAGE", 
+                        "STOP": "docker stop ${NAME}_run && echo \"Container ${NAME}_run has been stopped\"", 
+                        "UNINSTALL": "docker rm -v ${NAME}_volume ${NAME}_run && echo \"Uninstallation complete\"", 
+                        "architecture": "x86_64", 
+                        "build-date": "20170801", 
+                        "description": "ManageIQ is a management and automation platform for virtual, private, and hybrid cloud infrastructures.", 
+                        "io.k8s.description": "ManageIQ is a management and automation platform for virtual, private, and hybrid cloud infrastructures.", 
+                        "io.k8s.display-name": "ManageIQ", 
+                        "io.openshift.expose-services": "443:https", 
+                        "io.openshift.tags": "ManageIQ,miq,manageiq", 
+                        "license": "GPLv2", 
+                        "name": "manageiq", 
+                        "release": "master", 
+                        "summary": "ManageIQ appliance image", 
+                        "url": "http://manageiq.org/", 
+                        "vendor": "ManageIQ", 
+                        "version": "Master"
+                    }, 
+                    "OnBuild": [], 
+                    "OpenStdin": false, 
+                    "StdinOnce": false, 
+                    "StopSignal": "SIGRTMIN+3", 
+                    "Tty": false, 
+                    "User": "", 
+                    "Volumes": {
+                        "/var/opt/rh/rh-postgresql95/lib/pgsql/data": {}
+                    }, 
+                    "WorkingDir": "/var/www/miq/vmdb"
+                }, 
+                "Container": "acc9a4d94f4ca468d465d82ba9186d73a0d9429d8e508a04a0e8e782588fcf68", 
+                "ContainerConfig": {
+                    "ArgsEscaped": true, 
+                    "AttachStderr": false, 
+                    "AttachStdin": false, 
+                    "AttachStdout": false, 
+                    "Cmd": [
+                        "/bin/sh", 
+                        "-c", 
+                        "#(nop) ", 
+                        "CMD [\"/usr/sbin/init\"]"
+                    ], 
+                    "Domainname": "", 
+                    "Entrypoint": null, 
+                    "Env": [
+                        "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin", 
+                        "container=docker", 
+                        "LANG=en_US.UTF-8", 
+                        "TERM=xterm", 
+                        "RUBY_GEMS_ROOT=/opt/rubies/ruby-2.3.1/lib/ruby/gems/2.3.0", 
+                        "APP_ROOT=/var/www/miq/vmdb", 
+                        "APPLIANCE_ROOT=/opt/manageiq/manageiq-appliance", 
+                        "SUI_ROOT=/opt/manageiq/manageiq-ui-service"
+                    ], 
+                    "ExposedPorts": {
+                        "22/tcp": {}, 
+                        "443/tcp": {}, 
+                        "80/tcp": {}
+                    }, 
+                    "Hostname": "c7947be2eb9d", 
+                    "Image": "sha256:1a86902b40fcd8e65fdd6179e86dcbc2b7a042b5fed6852c22e90289d616ed93", 
+                    "Labels": {
+                        "INSTALL": "docker run -ti                 --name ${NAME}_volume                 --entrypoint /usr/bin/docker_initdb                 $IMAGE", 
+                        "RUN": "docker run -di             --name ${NAME}_run             -v /etc/localtime:/etc/localtime:ro             --volumes-from ${NAME}_volume             -p 80:80             -p 443:443             $IMAGE", 
+                        "STOP": "docker stop ${NAME}_run && echo \"Container ${NAME}_run has been stopped\"", 
+                        "UNINSTALL": "docker rm -v ${NAME}_volume ${NAME}_run && echo \"Uninstallation complete\"", 
+                        "architecture": "x86_64", 
+                        "build-date": "20170801", 
+                        "description": "ManageIQ is a management and automation platform for virtual, private, and hybrid cloud infrastructures.", 
+                        "io.k8s.description": "ManageIQ is a management and automation platform for virtual, private, and hybrid cloud infrastructures.", 
+                        "io.k8s.display-name": "ManageIQ", 
+                        "io.openshift.expose-services": "443:https", 
+                        "io.openshift.tags": "ManageIQ,miq,manageiq", 
+                        "license": "GPLv2", 
+                        "name": "manageiq", 
+                        "release": "master", 
+                        "summary": "ManageIQ appliance image", 
+                        "url": "http://manageiq.org/", 
+                        "vendor": "ManageIQ", 
+                        "version": "Master"
+                    }, 
+                    "OnBuild": [], 
+                    "OpenStdin": false, 
+                    "StdinOnce": false, 
+                    "StopSignal": "SIGRTMIN+3", 
+                    "Tty": false, 
+                    "User": "", 
+                    "Volumes": {
+                        "/var/opt/rh/rh-postgresql95/lib/pgsql/data": {}
+                    }, 
+                    "WorkingDir": "/var/www/miq/vmdb"
+                }, 
+                "Created": "2017-08-04T22:32:12.808668311Z", 
+                "DockerVersion": "17.03.1-ee-2", 
+                "GraphDriver": {
+                    "Data": {
+                        "RootDir": "/var/lib/docker/overlay/65b8c36da50b5012333a645ab0a3e6f9126f09e1de5ee11cf818e4485150e954/root"
+                    }, 
+                    "Name": "overlay"
+                }, 
+                "Id": "sha256:00eae676def28797cc57695c0f20f1fba688e24a1e9d5ef30b15af5dd2001284", 
+                "Os": "linux", 
+                "Parent": "", 
+                "RepoDigests": [
+                    "manageiq/manageiq@sha256:5e5a5db61a81e531e2f001ef7738a9a28d0245e860f274c52e74574947b86188"
+                ], 
+                "RepoTags": [
+                    "manageiq/manageiq:latest"
+                ], 
+                "RootFS": {
+                    "Layers": [
+                        "sha256:b362758f4793674edb79ec5c7192074b2eacf200c006e127069856484526ccf2", 
+                        "sha256:09a9ab7396c01822b916dfecc565857a8e749c919f1af540eff9b2ebd0e6e647", 
+                        "sha256:8282370a21be85eaa12bbf840d3a707de6c7f90dbe2cb92098d15a7f797c9be6", 
+                        "sha256:8d6a142c4668297fa3564179a35d4a40263ad7a2ab3b68c4fa0d424ea6b08df1", 
+                        "sha256:494d88b132235eaea88a74bf28c4319d7a93a3038bb328f495fa89a98da4cd8e", 
+                        "sha256:b2f8538abe802835784e1231e231099759be666a913118b03eb6c74b7f5bd1e8", 
+                        "sha256:94f39647a9c2f2e181aeda0f12c34b4af54b3cce238a58fbb36135f2dd83d49e", 
+                        "sha256:b54478698ff18dd17d0c4db53b8af4b6a86b892fe9a413a03298d46af5fd4f9a", 
+                        "sha256:122f118ae2562f4ffd8464297cfb648508116cc25368ed5ee4c1f7ecc94575c8", 
+                        "sha256:4647cca75590aadeea391358d7f436971e23991023abbc80e5311b4d91fe1100", 
+                        "sha256:78485a5ed1f7d1794b1b89bb818b5e37ea57444caf924fc78f255d901a838be6", 
+                        "sha256:4997ca8552609e2980f4e76a309379022087f4bef7b4c439c9421baa9e11616e", 
+                        "sha256:539544cbcc53be5bb7c1714386fc029aeca8ca76803a89fa0270a84ca070af7a", 
+                        "sha256:754c175750bec1ed8c095993ca5cd9eb5982a7e008062ecacc84c94de6611d95", 
+                        "sha256:aa0fa1bcf0c03b88a2d84c45de48ef2c2cb4aeab1bf701afe36642a5ba051ab3"
+                    ], 
+                    "Type": "layers"
+                }, 
+                "Size": 1861521650, 
+                "VirtualSize": 1861521650
+            }
+        ]
+    }
+}
+
+PLAY RECAP ***********************************************************************************************************************
+rhel74.home                : ok=3    changed=0    unreachable=0    failed=0   
+
