@@ -1,0 +1,13 @@
+---
+object_type: domain
+version: 1.0
+object:
+  attributes:
+    name: Billing
+    description: Billing
+    display_name: 
+    priority: 2
+    enabled: true
+    tenant_id: 20000000000002
+    source: user
+    top_level_namespace: 
