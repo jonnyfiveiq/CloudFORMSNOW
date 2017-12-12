@@ -1,0 +1,10 @@
+---
+object_type: namespace
+version: 1.0
+object:
+  attributes:
+    name: Dialogs
+    description: Automation methods supporting a dialog
+    display_name: 
+    priority: 
+    enabled: 

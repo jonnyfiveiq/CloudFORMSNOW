@@ -1,0 +1,12 @@
+---
+object_type: method
+version: 1.0
+object:
+  attributes:
+    name: cost_of_this_service
+    display_name: cost_of_this_service
+    description: 
+    scope: instance
+    language: ruby
+    location: inline
+  inputs: []

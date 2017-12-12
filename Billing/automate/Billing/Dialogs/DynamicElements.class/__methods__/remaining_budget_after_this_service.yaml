@@ -1,0 +1,12 @@
+---
+object_type: method
+version: 1.0
+object:
+  attributes:
+    name: remaining_budget_after_this_service
+    display_name: remaining_budget_after_this_service
+    description: 
+    scope: instance
+    language: ruby
+    location: inline
+  inputs: []

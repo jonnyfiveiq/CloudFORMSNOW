@@ -1,0 +1,12 @@
+---
+object_type: instance
+version: 1.0
+object:
+  attributes:
+    display_name: cost_of_this_service
+    name: cost_of_this_service
+    inherits: 
+    description: cost_of_this_service
+  fields:
+  - meth1:
+      value: cost_of_this_service

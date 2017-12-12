@@ -1,0 +1,12 @@
+---
+object_type: method
+version: 1.0
+object:
+  attributes:
+    name: your_budget
+    display_name: your_budget
+    description: 
+    scope: instance
+    language: ruby
+    location: inline
+  inputs: []

@@ -1,0 +1,186 @@
+---
+- description: Billing Example
+  buttons: submit,cancel
+  label: Billing Example
+  blueprint_id: 
+  dialog_tabs:
+  - description: Service Cost
+    display: edit
+    label: Billing
+    display_method: 
+    display_method_options: 
+    position: 0
+    dialog_groups:
+    - description: Service Costs
+      display: edit
+      label: Service Costs
+      display_method: 
+      display_method_options: 
+      position: 0
+      dialog_fields:
+      - name: cost_of_this_service
+        description: Cost of this Service
+        type: DialogFieldTextBox
+        data_type: integer
+        notes: 
+        notes_display: 
+        display: edit
+        display_method: 
+        display_method_options: {}
+        required: false
+        required_method: 
+        required_method_options: {}
+        default_value: '0'
+        values: []
+        values_method: 
+        values_method_options: {}
+        options:
+          :protected: false
+        label: Cost of this Service
+        position: 0
+        validator_type: 
+        validator_rule: 
+        reconfigurable: 
+        dynamic: true
+        show_refresh_button: true
+        load_values_on_init: true
+        read_only: true
+        auto_refresh: true
+        trigger_auto_refresh: true
+        visible: true
+        resource_action:
+          action: 
+          resource_type: DialogField
+          ae_namespace: Dialogs
+          ae_class: DynamicElements
+          ae_instance: cost_of_this_service
+          ae_message: 
+          ae_attributes: {}
+    - description: Quota
+      display: edit
+      label: Quota
+      display_method: 
+      display_method_options: 
+      position: 1
+      dialog_fields:
+      - name: your_budget
+        description: Current Budget
+        type: DialogFieldTextBox
+        data_type: integer
+        notes: 
+        notes_display: 
+        display: edit
+        display_method: 
+        display_method_options: {}
+        required: false
+        required_method: 
+        required_method_options: {}
+        default_value: ''
+        values: []
+        values_method: 
+        values_method_options: {}
+        options:
+          :protected: false
+        label: Current Budget
+        position: 0
+        validator_type: 
+        validator_rule: 
+        reconfigurable: 
+        dynamic: true
+        show_refresh_button: true
+        load_values_on_init: true
+        read_only: true
+        auto_refresh: true
+        trigger_auto_refresh: true
+        visible: true
+        resource_action:
+          action: 
+          resource_type: DialogField
+          ae_namespace: Dialogs
+          ae_class: DynamicElements
+          ae_instance: your_budget
+          ae_message: 
+          ae_attributes: {}
+      - name: remaining_budget
+        description: Remaining Budget after this Service
+        type: DialogFieldTextBox
+        data_type: integer
+        notes: 
+        notes_display: 
+        display: edit
+        display_method: 
+        display_method_options: {}
+        required: false
+        required_method: 
+        required_method_options: {}
+        default_value: ''
+        values: []
+        values_method: 
+        values_method_options: {}
+        options:
+          :protected: false
+        label: Remaining Budget
+        position: 1
+        validator_type: 
+        validator_rule: 
+        reconfigurable: 
+        dynamic: true
+        show_refresh_button: true
+        load_values_on_init: true
+        read_only: true
+        auto_refresh: true
+        trigger_auto_refresh: true
+        visible: true
+        resource_action:
+          action: 
+          resource_type: DialogField
+          ae_namespace: Dialogs
+          ae_class: DynamicElements
+          ae_instance: remaining_budget_after_this_service
+          ae_message: 
+          ae_attributes: {}
+    - description: Message
+      display: edit
+      label: Message
+      display_method: 
+      display_method_options: 
+      position: 2
+      dialog_fields:
+      - name: status
+        description: Status Message to Quota Balance
+        type: DialogFieldTextBox
+        data_type: string
+        notes: 
+        notes_display: 
+        display: edit
+        display_method: 
+        display_method_options: {}
+        required: false
+        required_method: 
+        required_method_options: {}
+        default_value: ''
+        values: []
+        values_method: 
+        values_method_options: {}
+        options:
+          :protected: false
+        label: Status
+        position: 0
+        validator_type: 
+        validator_rule: 
+        reconfigurable: 
+        dynamic: true
+        show_refresh_button: true
+        load_values_on_init: true
+        read_only: false
+        auto_refresh: true
+        trigger_auto_refresh: true
+        visible: true
+        resource_action:
+          action: 
+          resource_type: DialogField
+          ae_namespace: Dialogs
+          ae_class: DynamicElements
+          ae_instance: status
+          ae_message: 
+          ae_attributes: {}

@@ -1,0 +1,12 @@
+---
+object_type: instance
+version: 1.0
+object:
+  attributes:
+    display_name: remaining_budget_after_this_service
+    name: remaining_budget_after_this_service
+    inherits: 
+    description: remaining_budget_after_this_service
+  fields:
+  - meth1:
+      value: remaining_budget_after_this_service

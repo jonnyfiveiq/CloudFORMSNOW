@@ -1,0 +1,43 @@
+---
+- description: billing
+  icon: 
+  read_only: false
+  syntax: string
+  single_value: false
+  example_text: billing
+  parent_id: 0
+  show: true
+  default: 
+  perf_by_tag: false
+  name: billing
+  entries:
+  - description: mycompany_budget_10000
+    icon: 
+    read_only: false
+    syntax: string
+    single_value: false
+    example_text: 
+    show: true
+    default: 
+    perf_by_tag: 
+    name: mycompany_budget_10000
+  - description: cost_of_this_service_100
+    icon: 
+    read_only: false
+    syntax: string
+    single_value: false
+    example_text: 
+    show: true
+    default: 
+    perf_by_tag: 
+    name: cost_of_this_service_100
+  - description: cost_of_this_service_10000
+    icon: 
+    read_only: false
+    syntax: string
+    single_value: false
+    example_text: 
+    show: true
+    default: 
+    perf_by_tag: 
+    name: cost_of_this_service_10000
