@@ -1,0 +1,39 @@
+---
+- Demo Quota Chargeback:
+    name: Demo Quota Chargeback
+    description: Demo Quota Chargeback
+    template:
+    - name: Generic Sample Billing
+      description: Generic Sample Billing
+      type: 
+      display: true
+      service_type: atomic
+      prov_type: generic
+      provision_cost: 
+      long_description: |+
+        <h1 style="color: #5e9ca0;">CloudForms <span style="color: #2b2301;">Billing</span> Example</h1>
+        <hr>
+        <h2 style="color: #2e6c80;">Use Case</h2>
+        <p>As a user I wish to be presented the cost of the service I am ordering, along with my current budget and remaining budget when the service is ordered. I would like my budget to be set and maintained at my tenant.</p>
+
+      options: {}
+      service_template_catalog_name: Demo Quota Chargeback
+      resource_actions:
+      - action: Provision
+        ae_namespace: Service/Provisioning/StateMachines
+        ae_class: ServiceProvision_Template
+        ae_instance: CatalogItemInitialization
+        ae_message: 
+        ae_attributes:
+          :service_action: Provision
+        dialog_label: Billing Example
+      - action: Retirement
+        ae_namespace: Service/Retirement/StateMachines
+        ae_class: ServiceRetirement
+        ae_instance: Default
+        ae_message: 
+        ae_attributes:
+          :service_action: Retirement
+        dialog_label: Billing Example
+      custom_buttons: []
+      custom_button_sets: []

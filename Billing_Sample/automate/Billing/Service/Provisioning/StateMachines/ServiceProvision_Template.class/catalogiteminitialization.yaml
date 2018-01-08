@@ -3,10 +3,10 @@ object_type: instance
 version: 1.0
 object:
   attributes:
-    display_name: Billing_CatItemInit
-    name: Billing_CatItemInit
+    display_name: 
+    name: CatalogItemInitialization
     inherits: 
-    description: Billing_CatItemInit
+    description: 
   fields:
   - sequencer:
       value: "/Service/Provisioning/StateMachines/Methods/GroupSequenceCheck"
@@ -15,4 +15,4 @@ object:
   - pre2:
       value: "/Service/Provisioning/StateMachines/Methods/CatalogItemInitialization"
   - pre3:
-      value: "/Testing/Dialogs/DynamicElements/set_your_budget"
+      value: "/Billing/Dialogs/DynamicElements/set_your_budget"

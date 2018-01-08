@@ -12,13 +12,11 @@ tenant_tag_name = tenant.name.downcase
 tenant_tag_name = tenant_tag_name.delete(' ')
 your_budget_prefix = tenant_tag_name + '_budget_'
 
-$evm.log("info","tenant_tag_name = #{tenant_tag_name}")
 $evm.log("info","your_budget_prefix = #{your_budget_prefix}")
 
 #the object to get tags from for costing
 object = $evm.root['tenant']
 object_tags = object.tags
-$evm.log("info","object_tags = #{object_tags}")
 object_tags.each do |tag|
   $evm.log("info","Processing Tag = #{tag} for #{your_budget_prefix}")
   	if tag.include? "#{your_budget_prefix}"
